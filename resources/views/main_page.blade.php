@@ -44,7 +44,7 @@
 </main>
 
     <footer>
-        <p>Code di Sini</p>
+        <p>footer disini ya pin</p>
     </footer>
 
 {{-- </div> --}}
