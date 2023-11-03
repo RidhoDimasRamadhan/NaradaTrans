@@ -1,3 +1,58 @@
-footer{
-    color: red;
+.bg-footer{
+    background-color:#313338;
+}
+
+.logo {
+    width:180px;
+    height:38px;
+}
+
+.contact {
+    white-space: nowrap;
+}
+
+.contact p {
+    font-size: 15px;
+}
+
+.copyright p {
+    font-size: 15px;
+}
+
+.address p,h6{
+    font-size: 17px;
+}
+
+.ico {
+    border-radius: 50%;
+    width:25px;
+    height:25px;
+    padding: .25rem;
+    margin-right: 5px;
+}
+
+.mail {
+    margin-left:2rem
+}
+
+.socialIco {
+    border-radius: 50%;
+    width:35px;
+    height:35px;
+    padding:.45rem;
+}
+
+.line {
+    width:300px
+}
+
+.line a {
+    text-decoration: none;
+}
+
+.libur {
+    background-color: #D1A937;
+    border-radius: 8px;
+    padding: 2px 4px;
+    height:29px;
 }
