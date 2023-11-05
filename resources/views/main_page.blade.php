@@ -4,16 +4,129 @@
 @section('content')
 {{-- <div class="container"> --}}
 
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light mb-3" id="navbar">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Toggle button -->
+    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+      data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
 
-<div class="container" style="height: 50vh;">
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Navbar brand -->
+      <a class="navbar-brand mt-2 mt-lg-0" href="#">
+        <img src="{{ URL('images/Logo1.png') }}" alt="Logo">
+      </a>
+    </div>
+    <!-- Collapsible wrapper -->
 
-</div>
+    <!-- Right elements -->
+    <div class="d-flex gap-4 align-items-center">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item mx-3">
+          <a class="navbarLink" id="active" href="#">Beranda</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="navbarLink" href="#">Profil</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="navbarLink" href="#">Armada</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="navbarLink" href="#">Galeri</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="navbarLink" href="#">Kontak</a>
+        </li>
+      </ul>
+      <div class="d-flex gap-4">
+        <div>
+          <a href="#">
+            <img src="{{ URL('images/twtNavbar.png') }}" alt="twitter" class="">
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <img src="{{ URL('images/fbNavbar.png') }}" alt="Facebook" class="">
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <img src="{{ URL('images/igNavbar.png') }}" alt="Instagram" class="">        
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Right elements -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+
+<!-- <div id="carouselExampleIndicators" class="carousel slide" data-mdb-ride="carousel">
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-mdb-target="#carouselExampleIndicators"
+      data-mdb-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselExampleIndicators"
+      data-mdb-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselExampleIndicators"
+      data-mdb-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{ URL('images/bgBeranda.png') }}" class="d-block w-100" alt="Wild Landscape"/>
+    </div>
+    <div class="carousel-item">
+      <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="d-block w-100" alt="Camera"/>
+    </div>
+    <div class="carousel-item">
+      <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp" class="d-block w-100" alt="Exotic Fruits"/>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> -->
+
+
+<!-- Profil Page -->
+
+<section class="p-4 d-flex justify-content-center justify-content-lg-between">
+  <div class="container-fluid text-md-start mt-5">
+    <h1 class="w-50 mx-auto text-center profile-title fw-bold text-black">Mengapa Harus menggunakan <span class="gradient-text">NaradaTrans ?</span></h1>
+  </div>
+</section>
+
+<!-- Profil Page -->
 
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-footer text-muted">
 
   <!-- Section: Links  -->
-  <section class="pt-5">
+  <section class="p-4 d-flex justify-content-center justify-content-lg-between">
     <div class="container-fluid text-md-start mt-5">
       <!-- Grid row -->
       <div class="row mt-3">
@@ -54,13 +167,13 @@
 
           <div class="d-flex gap-4">
             <div class="">
-              <img src="{{ URL('images/twtIco.png') }}" alt="" class="bg-light socialIco">
+              <img src="{{ URL('images/Twiter.png') }}" alt="" class="bg-light socialIco">
             </div>
             <div>
-              <img src="{{ URL('images/fbIco.png') }}" alt="" class="bg-light socialIco">
+              <img src="{{ URL('images/Fb.png') }}" alt="" class="bg-light socialIco">
             </div>
             <div>
-              <img src="{{ URL('images/igIco.png') }}" alt="" class="bg-light socialIco">        
+              <img src="{{ URL('images/igIco.png') }}" alt="" class="bg-light IGIco">        
             </div>
           </div>
 
@@ -119,6 +232,21 @@
 
   
 </footer>
+
+<script>
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script>
 <!-- Footer -->
 {{-- </div> --}}
 @endsection
