@@ -1,3 +1,108 @@
-footer{
-    color: red;
+.navbar {
+    padding: 2rem 5.8rem;
+    overflow: hidden;
+    z-index;999
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.navbarLink {
+    color: #47110E;
+    text-decoration:none;
+    padding:8px 13px;
+    font-weight: bold;
+    border-radius:15px;
+}
+
+a#active {
+    background-color:#47110E;
+    color:white;
+}
+
+.navbarLink:hover {
+    background-color:#47110E;
+    color:white;
+    transition:.2s
+}
+
+.carousel {
+    z-index:-1;
+}
+
+.bg-footer{
+    background-color:#313338;
+}
+
+.logo {
+    width:180px;
+    height:38px;
+}
+
+.contact {
+    white-space: nowrap;
+}
+
+.contact p {
+    font-size: 15px;
+}
+
+.copyright p {
+    font-size: 15px;
+}
+
+.address p,h6{
+    font-size: 17px;
+}
+
+.ico {
+    border-radius: 50%;
+    width:25px;
+    height:25px;
+    padding: .25rem;
+    margin-right: 5px;
+}
+
+.mail {
+    margin-left:2rem
+}
+
+.socialIco {
+    border-radius: 50%;
+}
+
+.IGIco {
+    border-radius: 50%;
+    width:40px;
+    padding:.5rem; 
+}
+
+.line {
+    width:300px
+}
+
+.line a {
+    text-decoration: none;
+}
+
+.libur {
+    background-color: #D1A937;
+    border-radius: 8px;
+    padding: 2px 4px;
+    height:29px;
+}
+
+.profile-title {
+    padding: 2.5rem;
+}
+
+.gradient-text {
+    background: #D1A937;
+    background: linear-gradient(to right, #D1A937 0%, #7D6332 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
