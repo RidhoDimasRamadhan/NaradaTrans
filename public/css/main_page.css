@@ -1,7 +1,10 @@
 .navbar {
     padding: 2rem 5.8rem;
     overflow: hidden;
-    z-index;999
+}
+
+.section {
+    margin-top: 5em;
 }
 
 .sticky {
@@ -32,6 +35,22 @@ a#active {
 
 .carousel {
     z-index:-1;
+}
+
+.box {
+    background-color: #47110E;
+    width: 156px;
+    height:156px;
+}
+
+.title-card {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.descProfile {
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .bg-footer{
@@ -90,7 +109,7 @@ a#active {
 }
 
 .libur {
-    background-color: #D1A937;
+    background-color: #AB3C16;
     border-radius: 8px;
     padding: 2px 4px;
     height:29px;
@@ -100,9 +119,6 @@ a#active {
     padding: 2.5rem;
 }
 
-.gradient-text {
-    background: #D1A937;
-    background: linear-gradient(to right, #D1A937 0%, #7D6332 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.naradaText {
+    color: #AB3C16;
 }

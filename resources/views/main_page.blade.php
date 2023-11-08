@@ -5,7 +5,7 @@
 {{-- <div class="container"> --}}
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light mb-3" id="navbar">
+<nav class="navbar navbar-expand-lg navbar-light" id="navbar">
   <!-- Container wrapper -->
   <div class="container-fluid">
     <!-- Toggle button -->
@@ -114,9 +114,40 @@
 
 <!-- Profil Page -->
 
-<section class="p-4 d-flex justify-content-center justify-content-lg-between">
-  <div class="container-fluid text-md-start mt-5">
-    <h1 class="w-50 mx-auto text-center profile-title fw-bold text-black">Mengapa Harus menggunakan <span class="gradient-text">NaradaTrans ?</span></h1>
+<section class="p-4 d-flex justify-content-center justify-content-lg-between section">
+  <div class="container-fluid text-md-start">
+    <h1 class="w-50 mx-auto text-center profile-title fw-bold text-black">Mengapa Harus menggunakan <span class="naradaText">NaradaTrans ?</span></h1>
+    <div class="container">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3">
+          <div class="box mx-5"></div>
+          <div class="mt-3 text-center">
+            <h4 class="title-card">Armada Modern</h4>
+            <p class="descProfile px-3">Armada modern dan nyaman dengan fasilitas AC, WiFi, TV, dan keamanan terkini.</p>
+          </div>
+      </div>
+        <div class="col-md-3 col-lg-4 col-xl-3">
+          <div class="box mx-5"></div>
+          <div class="mt-3 text-center">
+            <h4 class="title-card">Rute Luas</h4>
+            <p class="descProfile px-3">Rute luas, fleksibel, dan sesuai berbagai kebutuhan pelanggan.</p>
+          </div>
+      </div>
+        <div class="col-md-3 col-lg-4 col-xl-3">
+          <div class="box mx-5"></div>
+          <div class="mt-3 text-center">
+            <h4 class="title-card">Layanan Profesional</h4>
+            <p class="descProfile px-3">Layanan pelanggan ramah, responsif, dan berpengetahuan untuk pengalaman pelanggan positif.</p>
+          </div>
+      </div>
+        <div class="col-md-3 col-lg-4 col-xl-3">
+          <div class="box mx-5"></div>
+          <div class="mt-3 text-center">
+            <h4 class="title-card">Harga Dapat disesuaikan</h4>
+            <p class="descProfile px-3">Layanan khusus dengan penyesuaian perjalanan sesuai kebutuhan pelanggan, nilai tambah yang signifikan.</p>
+          </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -142,7 +173,6 @@
           </div>
 
           <div class="contact mb-4">
-            
             <div class="d-inline-block">
               <p class="text-white">
                 <img src="{{ URL('images/phoneIco.png') }}" alt="" class="bg-light ico">
