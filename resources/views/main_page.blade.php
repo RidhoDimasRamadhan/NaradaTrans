@@ -1,5 +1,6 @@
 
 @extends('Template/base')
+<script src="https://kit.fontawesome.com/08692cf6f2.js" crossorigin="anonymous"></script>
 
 @section('content')
 {{-- <div class="container"> --}}
@@ -40,6 +41,9 @@
           <a class="navbarLink" href="#">Galeri</a>
         </li>
         <li class="nav-item mx-3">
+          <a class="navbarLink" href="#">Harga</a>
+        </li>
+        <li class="nav-item mx-3">
           <a class="navbarLink" href="#">Kontak</a>
         </li>
       </ul>
@@ -67,50 +71,50 @@
 </nav>
 <!-- Navbar -->
 
-<!-- <div id="carouselExampleIndicators" class="carousel slide" data-mdb-ride="carousel">
-  <div class="carousel-indicators">
-    <button
-      type="button"
-      data-mdb-target="#carouselExampleIndicators"
-      data-mdb-slide-to="0"
-      class="active"
-      aria-current="true"
-      aria-label="Slide 1"
-    ></button>
-    <button
-      type="button"
-      data-mdb-target="#carouselExampleIndicators"
-      data-mdb-slide-to="1"
-      aria-label="Slide 2"
-    ></button>
-    <button
-      type="button"
-      data-mdb-target="#carouselExampleIndicators"
-      data-mdb-slide-to="2"
-      aria-label="Slide 3"
-    ></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="{{ URL('images/bgBeranda.png') }}" class="d-block w-100" alt="Wild Landscape"/>
+<!-- Crousserl -->
+
+
+
+<div class="slideshow-container">
+
+    <div class="container row col-lg-12 kalimat">
+            <div class ="col-xl-8 rounded-lg">
+                       <div class="row mt-5  ">
+                            <div class="col-12 ms-5">
+                                <p>Anda ingin berpergian dengan BUS?</p>
+                                <H1 style="font-weight:bolder;">NaradaTrans </H1>
+                                <h1>PILIHAN TERBAIK </br> 
+                                  UNTUK ANDA</h1>
+                                  <a href="https://wa.me/089501300359" class = "deliver">Pesan Sekarang</a>
+                            </div>
+                        </div>
+            </div>
+
+      <div class ="col-xl-4 rounded-lg">
+          <div class="row mb-3"></div>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="d-block w-100" alt="Camera"/>
-    </div>
-    <div class="carousel-item">
-      <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp" class="d-block w-100" alt="Exotic Fruits"/>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+
+        <div class="mySlides">
+          <img src="{{ URL('images/bgBeranda.png') }}" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <img src="{{ URL('images/BannerUtama.png') }}" style="width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)"><</a>
+        <a class="next" onclick="plusSlides(1)">></a>
+</div>
+
+<br>
+
+<!-- <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
 </div> -->
 
+<!-- end Crousel -->
 
 <!-- Profil Page -->
 
@@ -276,7 +280,32 @@
       navbar.classList.remove("sticky");
     }
   }
+
+
+  let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
 </script>
 <!-- Footer -->
 {{-- </div> --}}
+
 @endsection
