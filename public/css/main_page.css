@@ -128,23 +128,31 @@ a#active {
     color: #AB3C16;
 }
 
+.AboveWord{
+    font-size: 24px;
+font-weight: 500;
+font-family: 'Inter', sans-serif;
+}
 .kalimat{
     position: absolute;
     color:  white;
+    font-family: 'Raleway', sans-serif;
     top:8rem;
     left: 5rem;
 }
 
 
-a.deliver{
-    color: white;
+.deliver{
     padding: .4rem;
     background-color: #AB3C16;
-    width: 9rem;
+    width: 10rem;
     border-radius: 3rem;
     text-align: center;
-    text-decoration: none;
+}
 
+.deliver a{
+    color: white;
+    text-decoration: none;
 }
 
 

@@ -81,11 +81,12 @@
             <div class ="col-xl-8 rounded-lg">
                        <div class="row mt-5  ">
                             <div class="col-12 ms-5">
-                                <p>Anda ingin berpergian dengan BUS?</p>
+                                <p class="AboveWord">Anda ingin berpergian dengan BUS?</p>
                                 <H1 style="font-weight:bolder;">NaradaTrans </H1>
-                                <h1>PILIHAN TERBAIK </br> 
-                                  UNTUK ANDA</h1>
-                                  <a href="https://wa.me/089501300359" class = "deliver">Pesan Sekarang</a>
+                                <h1>Pilihan Terbaik </br> 
+                                  Untuk Anda</h1>
+
+                                  <p class ="deliver"><a href="https://wa.me/089501300359">Pesan Sekarang</a></p>
                             </div>
                         </div>
             </div>
