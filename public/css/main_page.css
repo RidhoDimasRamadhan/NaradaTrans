@@ -135,14 +135,16 @@ a#active {
     left: 5rem;
 }
 
-.deliver{
+
+a.deliver{
     color: white;
-    padding: .2rem;
+    padding: .4rem;
     background-color: #AB3C16;
     width: 9rem;
     border-radius: 3rem;
     text-align: center;
     text-decoration: none;
+
 }
 
 
