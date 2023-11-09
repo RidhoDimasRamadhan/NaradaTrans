@@ -3,5 +3,9 @@
 <script src="https://kit.fontawesome.com/08692cf6f2.js" crossorigin="anonymous"></script>
 
 @section('content')
-<h1>harga</h1>
+<div class="container" style="margin-top:7rem;">
+
+<h1>Halaman Harga</h1>
+</div>
+</div>
 @endsection

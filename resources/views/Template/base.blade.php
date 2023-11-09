@@ -35,12 +35,12 @@
               <div class="col-8">
 
                   <div class="navbar-nav mt-1 ">
-                    <a class="nav-link navbarLink {{ ($judul === 'main_page')?'active':'' }}" id ="navbarLink" href="/main_page">Beranda</a>
-                    <a class="nav-link navbarLink {{ ($judul === 'profile')?'active':'' }}"  id ="navbarLink" href="/profile">Profile</a>
-                    <a class="nav-link navbarLink {{ ($judul === 'profile')?'active':'' }}"  id ="navbarLink" href="/armada">Armada</a>
-                    <a class="nav-link navbarLink {{ ($judul === 'profile')?'active':'' }}"  id ="navbarLink" href="/profile">Galeri</a>
-                    <a class="nav-link navbarLink {{ ($judul === 'profile')?'active':'' }}"  id ="navbarLink" href="/profile">Harga</a>
-                    <a class="nav-link navbarLink {{ ($judul === 'profile')?'active':'' }}"  id ="navbarLink" href="/profile">Kontak</a>
+                    <a class="nav-link navbarLink {{ ($judul === 'main_page')?'active':'' }}" id ="navbarLink" class ="btn active" href="/main_page">Beranda</a>
+                    <a class="nav-link navbarLink {{ ($judul === 'profile')?'active':'' }}"  id ="navbarLink" class ="btn"href="/profile">Profile</a>
+                    <a class="nav-link navbarLink {{ ($judul === 'profile')?'active':'' }}"  id ="navbarLink" class ="btn" href="/armada">Armada</a>
+                    <a class="nav-link navbarLink {{ ($judul === 'profile')?'active':'' }}"  id ="navbarLink" class ="btn" href="/galeri">Galeri</a>
+                    <a class="nav-link navbarLink {{ ($judul === 'profile')?'active':'' }}"  id ="navbarLink" class ="btn" href="/harga">Harga</a>
+                    <a class="nav-link navbarLink {{ ($judul === 'profile')?'active':'' }}"  id ="navbarLink" class ="btn" href="/kontak">Kontak</a>
 
                     <div class="d-flex gap-4 mt-2 ms-3">
                       <div>
@@ -86,6 +86,14 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script>
-  
+ var header = document.getElementById("myDIV");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
 </script>
 </html>

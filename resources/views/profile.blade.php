@@ -3,8 +3,9 @@
 <script src="https://kit.fontawesome.com/08692cf6f2.js" crossorigin="anonymous"></script>
 
 @section('content')
-<div id="navbar">
-</div>
+<div class="container" style="margin-top:7rem;">
 
-<h1>Armada</h1>
+<h1>Halaman Profile</h1>
+</div>
+</div>
 @endsection
