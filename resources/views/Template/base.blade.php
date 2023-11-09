@@ -82,6 +82,7 @@
         </div>
       </div>
     </div>
+<<<<<<< HEAD
     <!-- Right elements -->
   </div>
   <!-- Container wrapper -->
