@@ -14,7 +14,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <div class="d-flex d-md-block align-items-center navbarGap">
+      <div class="d-flex d-md-block my-md-1 align-items-center navbarGap">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item mx-3">
               <a class="navbarLink" id="active" href="#home">Beranda</a>
