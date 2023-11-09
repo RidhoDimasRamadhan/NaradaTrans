@@ -53,3 +53,9 @@ a#active {
 .carousel {
     z-index:-1;
 }
+
+body nav.ParentNavbar a[href="/main_page"],
+body nav.ParentNavbar a[href="/profile"]{
+	color: white;
+	background-color: blue;
+}

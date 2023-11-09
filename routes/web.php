@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\profileController;
 use App\Http\Controllers\Main_PageController;
+use App\Http\Controllers\armadaController;
 
 
 /*
@@ -21,8 +22,11 @@ Route::get('/main_page', function () {
         "judul"=>"/"
     ]);
 });
+Route::get('/armada',function(){
+    return view('armada');
+});
 
-
+Route::get('/armada',[armadaController::class,'armada']);
 Route::get('/profile',[profileController::class,'profile']);
 Route::get('/main_page',[Main_PageController::class,'main_page']);
 
