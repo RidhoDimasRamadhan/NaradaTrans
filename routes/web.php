@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\profileController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +16,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('main_page');
+    return view('main_page',[
+        "judul"=>"/"
+    ]);
 });
+
+
+Route::get('/profile',[profileController::class,'profile']);
+
+
 
