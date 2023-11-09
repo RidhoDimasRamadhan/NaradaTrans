@@ -1,0 +1,55 @@
+
+.ParentNavbar{
+    /* position: fixed; */
+    width: 100%;
+}
+.navbar {
+    padding: 2rem 5.8rem;
+    overflow: hidden;
+    z-index: 10000;
+}
+
+
+.navbarGap {
+    margin: 0 10.5em;
+}
+
+.section {
+    margin-top: 1em;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+#navbarlink{
+    color: #47110E;
+    text-decoration:none;
+    padding:8px 13px;
+    font-weight: bold;
+    border-radius:15px;
+}
+
+a#active {
+    background-color:#47110E;
+    color:white;
+}
+
+#navbarlink:hover {
+    background-color:#47110E;
+    color: white;
+    transition:.2s
+}
+
+.navbarIco {
+    width: 22px;
+    position: relative;
+    top:2px;
+}
+
+.carousel {
+    z-index:-1;
+}

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\profileController;
+use App\Http\Controllers\Main_PageController;
 
 
 /*
@@ -15,7 +16,7 @@ use App\Http\Controllers\profileController;
 |
 */
 
-Route::get('/', function () {
+Route::get('/main_page', function () {
     return view('main_page',[
         "judul"=>"/"
     ]);
@@ -23,6 +24,7 @@ Route::get('/', function () {
 
 
 Route::get('/profile',[profileController::class,'profile']);
+Route::get('/main_page',[Main_PageController::class,'main_page']);
 
 
 

@@ -1,7 +1,10 @@
-
 @extends('Template/base')
-<script src="https://kit.fontawesome.com/08692cf6f2.js" crossorigin="anonymous"></script>
 
 @section('content')
-<h1>Profile</h1>
+
+<div class="container ">
+    <h1></h1>
+    <h1>Profile</h1>
+
+</div>
 @endsection
