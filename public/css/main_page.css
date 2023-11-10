@@ -204,6 +204,28 @@ font-family: 'Inter', sans-serif;
 
 
 /* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 500px) {
+    /* For tablets: */
+    .navbar-brand {
+        left: -3rem;
+        top: 0;
+        position: relative;
+    }
+    button {
+        position: relative;
+        right: -11rem;
+        top: -3rem;
+    }
+
+    .mySlides img{
+        /* height: 70vh; */
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+  }
+
+
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
