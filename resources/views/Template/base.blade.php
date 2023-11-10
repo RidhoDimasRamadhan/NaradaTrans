@@ -29,7 +29,7 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="col-12">
+            <div class="col-lg-12 col-sm-1">
             <div class="row">
               <div class="col-4"></div>
               <div class="col-8">
@@ -45,7 +45,7 @@
                     <div class="d-flex gap-4 mt-2 ms-3">
                       <div>
                         <a href="#">
-                          <img src="{{ URL('images/twtNavbar.png') }}" alt="twitter" class="">
+                          <img src="{{ URL('images/twtNavbar.png') }}" alt="twitter" class="navbarIco">
                         </a>
                       </div>
                       <div>
@@ -55,7 +55,7 @@
                       </div>
                       <div>
                         <a href="#">
-                          <img src="{{ URL('images/igNavbar.png') }}" alt="Instagram" class="">        
+                          <img src="{{ URL('images/igNavbar.png') }}" alt="Instagram" class="navbarIco">        
                         </a>
                       </div>
                     </div>
