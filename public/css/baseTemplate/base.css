@@ -62,13 +62,13 @@ a:is(:link, :active, :visited).active{
 @media only screen and (max-width: 500px) {
     /* For tablets: */
     .navbar-brand {
-        left: 2rem;
+        left: -3rem;
         top: 0;
         position: relative;
     }
-    #navbarNavAltMarkup {
+    button {
         position: relative;
-        right: 11rem;
-        top: 0;
+        right: -11rem;
+        top: -3rem;
     }
   }
