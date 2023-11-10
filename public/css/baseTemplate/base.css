@@ -64,10 +64,10 @@ a:is(:link, :active, :visited).active{
     .navbar-brand {
         left: 2rem;
         top: 0;
-        position: absolute;
+        position: relative;
     }
     #navbarNavAltMarkup {
-        position: absolute;
+        position: relative;
         right: 11rem;
         top: 0;
     }
