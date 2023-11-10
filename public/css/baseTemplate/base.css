@@ -62,17 +62,14 @@ a:is(:link, :active, :visited).active{
 @media only screen and (max-width: 500px) {
     /* For tablets: */
     .navbar-brand {
-        left: -3rem;
+        left: -4rem;
         top: 0;
         position: relative;
     }
     button {
         position: relative;
-        right: -11rem;
+        right: -14rem;
         top: -3rem;
     }
-    .profile-title{
-        position: relative;
-        right: 3rem;
-    }
+
   }
