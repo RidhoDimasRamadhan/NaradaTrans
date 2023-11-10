@@ -14,7 +14,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <div class="d-flex d-md-block my-md-1 align-items-center navbarGap">
+      <div class="d-flex d-md-block align-items-center navbarGap">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item mx-3">
               <a class="navbarLink" id="active" href="#home">Beranda</a>
@@ -104,8 +104,8 @@
 <!-- Profil Page -->
 
 <section class="d-flex justify-content-center justify-content-lg-between section">
-  <div class="container-fluid text-md-start">
-    <h1 class="w-50 mx-auto text-center profile-title fw-bold text-black">Mengapa Harus menggunakan <span class="naradaText">NaradaTrans ?</span></h1>
+  <div class="container-fluid text-md-start bgGrey">
+    <h1 class="w-75 my-lg-5 mx-lg-auto text-center profile-title fw-bold text-black">Mengapa Harus menggunakan <span class="naradaText">NaradaTrans ?</span></h1>
     <div class="container">
       <div class="row mt-3">
         <div class="col-md-3 col-lg-4 col-xl-3">
@@ -146,16 +146,33 @@
         </div>
       </div>
     </div>
-    <h1 class="w-50 mx-auto text-center profile-title fw-bold text-black">Armada<span class="naradaText"> Kami</span></h1>
+    <!-- <h1 class="w-50 mx-auto text-center profile-title fw-bold text-black">Armada<span class="naradaText"> Kami</span></h1> -->
     <!-- <div class="container-fluid">
       <img src="{{ URL('images/busPutih.png') }}" alt="">
       <img src="{{ URL('images/busYellow.jpg') }}" alt="" class="busKuning">
       <img src="{{ URL('images/busBiru.png') }}" alt="">
     </div> -->
   </div>
+  
+</section>
+<!-- Profil Page -->
+
+<section class="d-flex justify-content-center justify-content-lg-between section">
+  <div class="container text-md-start">
+    <h1 class="w-75 mx-auto text-center profile-title fw-bold text-black">Armada <span class="naradaText">Kami</span></h1>
+  </div>
 </section>
 
-<!-- Profil Page -->
+<!-- Testimoni -->
+<section class="d-flex justify-content-center justify-content-lg-between section">
+  <div class="container-fluid text-md-start bgGrey">
+    <h1 class="w-75 fw-bold text-black profile-title">Kesan Perjalanan Penumpang Bersama <span class="naradaText">NaradaTrans</span></h1>
+    
+  </div>
+  
+</section>
+
+<!-- Testimoni -->
 
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-footer text-muted">

@@ -138,12 +138,20 @@ a#active {
 }
 
 .profile-title {
-    padding: 2.5rem;
+    padding: 0 9rem;
+}
+
+.bgGrey {
+    background-color: #F9F9F9;`
 }
 
 .naradaText {
     color: #AB3C16;
 }
+
+/* Testimonial */
+
+/* Testimonial */
 
 .AboveWord{
     font-size: 24px;
@@ -262,6 +270,10 @@ font-family: 'Inter', sans-serif;
 @media only screen and (max-width: 992px) {
     .navbarGap {
         margin: 1em 2.2em;
+    }
+
+    .profile-title {
+        padding: 0;
     }
 
 }
