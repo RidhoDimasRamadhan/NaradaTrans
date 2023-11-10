@@ -1,0 +1,7 @@
+.profile{
+    position: static;
+    margin-top: 3rem;
+}
+.profile h1{
+    color: red;
+}
