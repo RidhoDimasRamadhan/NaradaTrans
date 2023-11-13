@@ -99,7 +99,7 @@
       </div>
     </div>
   </div>
-    <!-- <h1 class="w-50 mx-auto text-center fw-bold text-black">Armada<span class="naradaText"> Kami</span></h1>
+    <h1 class="w-50 mx-auto text-center fw-bold text-black py-4">Armada<span class="naradaText"> Kami</span></h1>
     <div class="container-fluid">
       <div class="wrapper">
         <i id="left" class="fa-solid fa-angle-left"></i>
@@ -110,7 +110,36 @@
       </div>
       <i id="right" class="fa-solid fa-angle-right"></i>
     </div>
-    </div> -->
+    </div>
+  </div>
+</section>
+
+<section class="d-flex justify-content-center justify-content-lg-between section">
+  <div class="container-fluid text-md-start">
+    <div class="bg-Grey py-2">
+      <h1 class="w-75 fw-bold text-black">Kesan Perjalanan Penumpang Bersama<span class="naradaText"> NaradaTrans</span></h1>
+    </div>
+    <div class="d-flex justify-content-center py-4">
+      <div id="banner-img" class="banner">
+        <h1 class="fw-bold text-white mx-auto text-center pt-5 pb-3">Sewa BUS terpercaya <span class="naradaBanner">NaradaTrans</span> solusinya</h1>
+        <img src="{{ URL('images/play.png') }}" alt="play" class="d-block mx-auto">
+      </div>
+    </div>
+    <div class="d-flex justify-content-center py-5">
+      <div class="row ribbon mb-4">
+        <div class="col-md-3 col-lg-7 col-xl-3">
+          <img src="{{ URL('images/img4.png') }}" alt="img" class="img-ribbon">
+        </div>
+        <div class="col-md-3 col-lg-7 col-xl-3 text-white text-ribbon">
+          <h1 class="fw-bold">Anda Tertarik?</h1>
+          <p class="">Silahkan hubungi kami dan download e-brochure untuk informasi lebih lanjut.</p>
+        </div>
+        <div class="col-md-3 col-lg-7 col-xl-6 btn-ribbon">
+          <button type="button" class="btn-kontak text-white">KONTAK</button>
+          <button type="button" class="btn-download text-white">Download Brosur</button>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 

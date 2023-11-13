@@ -102,6 +102,10 @@
   color: #AB3C16;
 }
 
+.naradaBanner {
+  color: #EEA953;
+}
+
 .AboveWord{
   font-size: 24px;
 font-weight: 500;
@@ -216,6 +220,75 @@ animation-duration: 3.5s;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#banner-img {
+  width: 80%;
+  background-image: url(../images/banner.png);
+  height: 355px;
+  background-position: center;
+}
+
+.banner {
+  border-radius: 12px;
+}
+
+.banner h1 {
+  font-size: 38px;
+  width: 60%;
+}
+
+.banner img {
+  cursor: pointer;
+}
+
+.ribbon {
+  background-color: #AB3C16;
+  height: 192px;
+  width: 80%;
+  border-radius: 20px;
+}
+
+.img-ribbon {
+  position: relative;
+  right:.7rem;
+  border-radius: 20px;
+}
+
+.text-ribbon {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.text-ribbon h1{
+  font-size: 33px;
+}
+
+.text-ribbon p {
+  font-size: 13px;
+  padding-right: 16px;
+}
+
+.btn-ribbon {
+  padding-top: 4.3rem;
+  padding-bottom: 4.3rem;
+}
+
+.btn-kontak {
+  border: none;
+  background-color: #EEA953;
+  border-radius: 50px;
+  padding: 12px 55px;
+  font-weight: bold;
+  margin-right:15px;
+}
+
+.btn-download {
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 50px;
+  padding: 12px 55px;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 500px) {
