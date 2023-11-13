@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/css/main_page.css">
     <link rel="stylesheet" href="/css/profile.css">
     <link rel="stylesheet" href="/css/armada.css">
+    <link rel="stylesheet" href="/css/galeri.css">
     <link rel="stylesheet" href="/css/baseTemplate/base.css">
     <script src="https://kit.fontawesome.com/08692cf6f2.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
