@@ -10,7 +10,7 @@
             <div class="col-sm-10 col-md-3 col-lg-5 col-xl-5">  
                 <div class="article-left">
                     <h2>Profil PO NaradaTrans</h2>
-                    <h1><span class="sejarahColor">Sejarah</span> NaradaTrans</h1>
+                    <h1><span class="text-brown">Sejarah</span> NaradaTrans</h1>
                     <p class="pt-3">NaradaTrans adalah perusahaan otobis yang khusus melayani pariwisata dan antar jemput karyawan dalam negeri. NaradaTrans didirikan pada tahun 2004 di Jakarta.</p>
                     <p>Semua armada NaradaTrans menggunakan armada bis MERCEDES BENZ (Big Bus), Bus Medium (Mitsubishi) yang sudah terkenal akan standar kenyamanan dan keamanannya di bidang otomotif. Selain itu, kami juga menyediakan Mini Bus 15 seats menggunakan kendaraan seperti Isuzu Elf dan Toyota Commuter.</p>
                     <p>Seiring dengan berjalannya waktu, NaradaTrans telah banyak melayani perusahaan-perusahaan swasta lokal dan asing, BUMN, sekolah-sekolah swasta, negeri maupun internasional, yayasan-yayasan sosial, dan acara-acara keluarga seperti perkawinan dan mudik.</p>
@@ -34,7 +34,7 @@
             <div class="col-md-3 col-lg-5 col-xl-5">  
                 <div class="article-right">
                     <h2>Layanan Kami</h2>
-                    <h1>Kenyamanan, Keselamatan <span class="sejarahColor">Penumpang Prioritas Kami</span></h1>
+                    <h1>Kenyamanan, Keselamatan <span class="text-brown">Penumpang Prioritas Kami</span></h1>
                     <p class="pt-3">NaradaTrans menawarkan perjalanan yang nyaman dengan armada bis yang dilengkapi AC, DVD, LCD (TV layar datar), karaoke, dan reclining seats. Kami menjadi pionir "BUS THEATRE" di Indonesia, menghadirkan hiburan selama perjalanan. Keselamatan penumpang adalah prioritas utama kami, dengan setiap armada dilengkapi palu pemecah kaca, pintu darurat, dan tabung pemadam kebakaran. Pengemudi berpengalaman di bidang pariwisata menjamin kenyamanan dan keselamatan Anda.</p>
             </div>
         </div>
