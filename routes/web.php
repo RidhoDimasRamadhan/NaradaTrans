@@ -19,9 +19,9 @@ use App\Http\Controllers\hargaController;
 |
 */
 
-Route::get('/main_page', function () {
+Route::get('/', function () {
     return view('main_page',[
-        "judul"=>"/"
+        "judul"=>"Narada Trans"
     ]);
 });
 Route::get('/armada',function(){

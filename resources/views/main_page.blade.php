@@ -56,19 +56,17 @@
 
 <section class="d-flex justify-content-center justify-content-lg-between section">
   <div class="container-fluid text-md-start">
-    <div class="mengapa">
-      <h1 class="mx-auto text-center profile-title fw-bold text-black">Mengapa Harus menggunakan <span class="naradaText">NaradaTrans ?</span></h1>
-
-    </div>
-    <div class="container">
-      <div class="row mt-3">
-        <div class="col-md-3 col-lg-4 col-xl-3">
+    <div class="bg-Grey py-2">
+      <h1 class="text-sm-start text-md-center text-lg-center text-xl-center profile-title fw-bold text-black">Mengapa Harus menggunakan <span class="naradaText">NaradaTrans ?</span></h1>
+      <div class="container-fluid">
+        <div class="row mt-3">
+        <div class="col-md-3 col-lg-7 col-xl-3">
           <div class="mx-5 img">
             <img src="{{ URL('images/armadaBadge.png') }}" alt="">
           </div>
           <div class="mt-3 text-center">
             <h4 class="title-card">Armada Modern</h4>
-            <p class="descProfile px-3">Armada modern dan nyaman dengan fasilitas AC, WiFi, TV, dan keamanan terkini.</p>
+            <p class="descProfile px-2 px-lg-5">Armada modern dan nyaman dengan fasilitas AC, WiFi, TV, dan keamanan terkini.</p>
           </div>
       </div>
         <div class="col-md-3 col-lg-4 col-xl-3">
@@ -79,8 +77,8 @@
             <h4 class="title-card">Rute Luas</h4>
             <p class="descProfile px-3">Rute luas, fleksibel, dan sesuai berbagai kebutuhan pelanggan.</p>
           </div>
-      </div>
-        <div class="col-md-3 col-lg-4 col-xl-3">
+        </div>
+        <div class="col-md-3 col-lg-7 col-xl-3">
           <div class="mx-5 img">
             <img src="{{ URL('images/layananBadge.png') }}" alt="">
           </div>
@@ -88,7 +86,7 @@
             <h4 class="title-card">Layanan Profesional</h4>
             <p class="descProfile px-3">Layanan pelanggan ramah, responsif, dan berpengetahuan untuk pengalaman pelanggan positif.</p>
           </div>
-      </div>
+        </div>
         <div class="col-md-3 col-lg-4 col-xl-3">
           <div class="mx-5 img">
             <img src="{{ URL('images/hargaBadge.png') }}" alt="">
@@ -100,42 +98,39 @@
         </div>
       </div>
     </div>
-    <h1 class="w-50 mx-auto text-center profile-title fw-bold text-black">Armada<span class="naradaText"> Kami</span></h1>
+  </div>
+    <!-- <h1 class="w-50 mx-auto text-center fw-bold text-black">Armada<span class="naradaText"> Kami</span></h1>
     <div class="container-fluid">
-    <div class="wrapper">
-      <i id="left" class="fa-solid fa-angle-left"></i>
-      <div class="carousel">
-        <img src="{{ URL('images/busPutih.png') }}" alt="img" draggable="false">
+      <div class="wrapper">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <div class="carousel">
+          <img src="{{ URL('images/busPutih.png') }}" alt="img" draggable="false">
         <img src="{{ URL('images/busYellow.jpg') }}" alt="img" draggable="false">
         <img src="{{ URL('images/busBiru.png') }}" alt="img" draggable="false">
       </div>
       <i id="right" class="fa-solid fa-angle-right"></i>
     </div>
-
-      <!-- <img src="" alt="">
-      <img src="" alt="" class="busKuning">
-      <img src="" alt=""> -->
-    </div>
+    </div> -->
   </div>
 </section>
 
 <!-- Profil Page -->
 
 <!-- Footer -->
-<footer class="text-center text-lg-start bg-footer text-muted">
+<footer class="text-lg-start bg-footer text-muted">
 
   <!-- Section: Links  -->
   <section class="p-4 d-flex justify-content-center justify-content-lg-between">
     <div class="container-fluid text-md-start mt-5">
       <!-- Grid row -->
-      <div class="row mt-3">
+      <div class="row mt-lg-3 mt-sm-1">
         <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-lg-auto mb-4">
           <!-- Content -->
           <img src="{{ URL('images/Logo.png') }}" alt="Logo" class="logo">
           <div class="address">
             <h6 class="fw-bold text-white mt-4">Pool Bus dan Kantor Pusat</h6>
-            <p class="text-white">
+            <p class="text-white pe-sm-5">
               Jl. Jatimulya Raya No.1, Jatimulya, Kec. Tambun Selatan, Kota Bekasi, Jawa Barat 17510
             </p>
           </div>
@@ -150,14 +145,14 @@
 
             <div class="d-inline-block mail">
               <p class="text-white">
-                <img src="{{ URL('images/webIco.png') }}" alt="" class="bg-light ico">
+                <img src="{{ URL('images/mailIco.png') }}" alt="" class="bg-light ico">
                 naradatrans@gmail.com
               </p>
             </div>
 
             <div class="">
               <p class="text-white">
-                <img src="{{ URL('images/mailIco.png') }}" alt="" class="bg-light ico">
+                <img src="{{ URL('images/webIco.png') }}" alt="" class="bg-light ico">
                 naradatrans.co.id
               </p>
             </div>
@@ -183,18 +178,18 @@
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
           <h6 class="text-white mb-4">
             Menu Utama
           </h6>
-          <div class="d-flex justify-content-center justify-content-lg-between border-bottom mb-3 line">
+          <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
             <a href="#" class="text-white pb-3">Home</a>
           </div>
-          <div class="d-flex justify-content-center justify-content-lg-between border-bottom mb-3 line">
+          <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
             <a href="#" class="text-white pb-3">Profil</a>
           </div>
-          <div class="d-flex justify-content-center justify-content-lg-between border-bottom mb-3 line">
+          <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
             <a href="#" class="text-white pb-3">Kontak</a>
           </div>
           
@@ -202,21 +197,21 @@
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
           <h6 class="text-white mb-4">
             Jam Operasional
           </h6>
-          <div class="d-flex justify-content-center justify-content-lg-between border-bottom mb-3">
+          <div class="d-flex justify-content-lg-between border-bottom mb-3">
             <span class="text-white pb-3">Senin - Jumat :</span>
             <span class="text-white">09.00 pm - 13.00 pm</span>
           </div>
-          <div class="d-flex justify-content-center justify-content-lg-between border-bottom mb-3">
-            <span class="text-white pb-3">Sabtu :</span>
+          <div class="d-flex justify-content-lg-between border-bottom mb-3">
+            <span class="text-white pb-3 me-md-2">Sabtu:</span>
             <span class="text-white">09.00 pm - 13.00 pm</span>
           </div>
-          <div class="d-flex justify-content-center justify-content-lg-between border-bottom mb-3">
-            <span class="text-white pb-3">Minggu :</span>
+          <div class="d-flex justify-content-lg-between border-bottom mb-3">
+            <span class="text-white pb-3 me-md-2">Minggu :</span>
             <div class="libur">
               <span class="text-white">Libur</span>
             </div>

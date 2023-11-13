@@ -1,194 +1,202 @@
 * {
-    box-sizing: border-box
+  box-sizing: border-box
 }
 
 .box {
-    background-color: #47110E;
-    width: 156px;
-    height:156px;
+  background-color: #47110E;
+  width: 156px;
+  height:156px;
 }
 
 .title-card {
-    font-size: 19px;
-    font-weight: 600;
+  font-size: 19px;
+  font-weight: 600;
 }
 
 .descProfile {
-    font-size: 14px;
-    font-weight: 400;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .busKuning {
-    width: 350px;
-    height: 284px;
-    object-fit: cover;
+  width: 350px;
+  height: 284px;
+  object-fit: cover;
 }
 
 .bg-footer{
-    background-color:#313338;
+  background-color:#313338;
 }
 
 .logo {
-    width:180px;
-    height:38px;
+  width:180px;
+  height:38px;
 }
 
 .contact {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 .contact p {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .copyright p {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .address p,h6{
-    font-size: 17px;
+  font-size: 17px;
 }
 
 .ico {
-    border-radius: 50%;
-    width:25px;
-    height:25px;
-    padding: .25rem;
-    margin-right: 5px;
+  border-radius: 50%;
+  width:25px;
+  height:25px;
+  padding: .25rem;
+  margin-right: 5px;
+}
+
+.navbarIco {
+  position: relative;
 }
 
 .mail {
-    margin-left:2rem
+  margin-left:2rem
 }
 
 .socialIco {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .IGIco {
-    border-radius: 50%;
-    width:40px;
-    padding:.5rem; 
+  border-radius: 50%;
+  width:40px;
+  padding:.5rem; 
 }
 
 .line {
-    width:300px
+  width:300px
 }
 
 .line a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .libur {
-    background-color: #AB3C16;
-    border-radius: 8px;
-    padding: 2px 4px;
-    height:29px;
+  background-color: #AB3C16;
+  border-radius: 8px;
+  padding: 2px 4px;
+  height:29px;
+}
+
+.bg-Grey {
+  background-color: #F9F9F9;
 }
 
 .profile-title {
-    padding: 2.5rem;
+  padding:2rem 21rem;
 }
 
 .naradaText {
-    color: #AB3C16;
+  color: #AB3C16;
 }
 
 .AboveWord{
-    font-size: 24px;
+  font-size: 24px;
 font-weight: 500;
 font-family: 'Inter', sans-serif;
 }
 .kalimat{
-    position: absolute;
-    color:  white;
-    font-family: 'Raleway', sans-serif;
-    top:8rem;
-    left: 5rem;
+  position: absolute;
+  color:  white;
+  font-family: 'Raleway', sans-serif;
+  top:8rem;
+  left: 5rem;
 }
 
 
 .deliver{
-    padding: .4rem;
-    background-color: #AB3C16;
-    width: 10rem;
-    border-radius: 3rem;
-    text-align: center;
+  padding: .4rem;
+  background-color: #AB3C16;
+  width: 10rem;
+  border-radius: 3rem;
+  text-align: center;
 }
 
 .deliver a{
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 
 .mySlides {
-    display: none;
-    /* height: 100vh; */
+  display: none;
+  /* height: 100vh; */
 }
 .mySlides img {
-    /* vertical-align: middle; */
-    background-position: center;
-    /* background-size: contain; */
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-size: contain;
+  /* vertical-align: middle; */
+  background-position: center;
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: contain;
 }
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
+max-width: 100%;
+position: relative;
+margin: auto;
 }
 
 /* Next & previous buttons */
 .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  text-decoration: none;
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+text-decoration: none;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-  text-decoration: none;
+right: 0;
+border-radius: 3px 0 0 3px;
+text-decoration: none;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 /* .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+background-color: rgba(0,0,0,0.8);
 } */
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
 }
 
 .carousel-control-prev, .carousel-control-next{
-    background-color: #e1e1e1;
-    width: 6vh;
-    height: 6vh;
-    border-radius: 50%;
-    top: 50%;
-    transform: translateY(-50%);
+  background-color: #e1e1e1;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 /* Number text (1/3 etc) */
 
@@ -198,140 +206,180 @@ font-family: 'Inter', sans-serif;
 
 /* Fading animation */
 /* .fade {  
-  animation-name: fade;
-  animation-duration: 3.5s;
+animation-name: fade;
+animation-duration: 3.5s;
 } */
 
 
 /* On smaller screens, decrease text size */
 .img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (max-width: 500px) {
-    /* For tablets: */
-    .navbar-brand {
-        left: -3rem;
-        top: 0;
-        position: relative;
-    }
-    button {
-        position: relative;
-        right: -11rem;
-        top: -3rem;
-    }
-
-    .mySlides img{
-        /* height: 70vh; */
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .mengapa{
-        border: 1px solid black;
-        width: 80%;
-        position: relative;
-        margin: 0 auto;
-        /* right: 3rem; */
-        text-align: center;
-        /* display: flex; */
-        /* justify-content: center; */
-        /* align-items: center; */
-     }
+  /* For tablets: */
+  .navbar-brand {
+      left: -3rem;
+      top: 0;
+      position: relative;
+  }
+  button {
+      position: relative;
+      right: -11rem;
+      top: -3rem;
   }
 
-  /* .gambarArmada{
-    margin: 0 auto;
-  } */
+  .mySlides img{
+      /* height: 70vh; */
+      background-repeat: no-repeat;
+      background-size: contain;
+  }
+  .mengapa{
+      border: 1px solid black;
+      width: 80%;
+      position: relative;
+      margin: 0 auto;
+      /* right: 3rem; */
+      text-align: center;
+      /* display: flex; */
+      /* justify-content: center; */
+      /* align-items: center; */
+   }
+}
+
+/* .gambarArmada{
+  margin: 0 auto;
+} */
 
 
 
-  /* Import Google font - Poppins */
+/* Import Google font - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
 }
 .wrapper{
-  display: flex;
-  max-width: 1200px;
-  position: relative;
+display: flex;
+max-width: 1200px;
+position: relative;
 }
 .wrapper i{
-  top: 50%;
-  height: 44px;
-  width: 44px;
-  color: #343F4F;
-  cursor: pointer;
-  font-size: 1.15rem;
-  position: absolute;
-  text-align: center;
-  line-height: 44px;
-  background: #fff;
-  border-radius: 50%;
-  transform: translateY(-50%);
-  transition: transform 0.1s linear;
+top: 50%;
+height: 44px;
+width: 44px;
+color: #343F4F;
+cursor: pointer;
+font-size: 1.15rem;
+position: absolute;
+text-align: center;
+line-height: 44px;
+background: #fff;
+border-radius: 50%;
+transform: translateY(-50%);
+transition: transform 0.1s linear;
 }
 .wrapper i:active{
-  transform: translateY(-50%) scale(0.9);
+transform: translateY(-50%) scale(0.9);
 }
 .wrapper i:hover{
-  background: #f2f2f2;
+background: #f2f2f2;
 }
 .wrapper i:first-child{
-  left: -22px;
-  display: none;
+left: -22px;
+display: none;
 }
 .wrapper i:last-child{
-  right: -22px;
+right: -22px;
 }
 .wrapper .carousel{
-  font-size: 0px;
-  cursor: pointer;
-  overflow: hidden;
-  white-space: nowrap;
-  scroll-behavior: smooth;
+font-size: 0px;
+cursor: pointer;
+overflow: hidden;
+white-space: nowrap;
+scroll-behavior: smooth;
 }
 .carousel.dragging{
-  cursor: grab;
-  scroll-behavior: auto;
+cursor: grab;
+scroll-behavior: auto;
 }
 .carousel.dragging img{
-  pointer-events: none;
+pointer-events: none;
 }
 .carousel img{
-  height: 340px;
-  object-fit: cover;
-  user-select: none;
-  margin-left: 14px;
-  width: calc(100% / 3);
+height: 340px;
+object-fit: cover;
+user-select: none;
+margin-left: 14px;
+width: calc(100% / 3);
 }
 .carousel img:first-child{
-  margin-left: 0px;
+margin-left: 0px;
 }
 
 @media screen and (max-width: 900px) {
-  .carousel img{
-    width: calc(100% / 2);
-  }
+.carousel img{
+  width: calc(100% / 2);
+}
 }
 
 @media screen and (max-width: 550px) {
-  .carousel img{
-    width: 100%;
+.carousel img{
+  width: 100%;
+}
+}
+
+@media only screen and (max-width: 576px) {
+  .profile-title {
+    padding: 2rem 0;
+    padding-right: 5rem;
+    padding-left: 2rem;
+  }
+
+  .line {
+    width:100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .line {
+    width:80%;
+  }
+
+  .profile-title {
+    padding: 2rem 0;
+    padding-right: 5rem;
+    padding-left: 2rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .navbarGap {
+      margin: 1em 2.2em;
+  }
+  .profile-title {
+    padding: 2rem 0;
+    padding-right: 5rem;
+    padding-left: 2rem;
+  }
+
+  .line {
+    width:100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .profile-title {
+    padding: 2rem 0;
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 }
 
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-
-@media only screen and (max-width: 992px) {
-    .navbarGap {
-        margin: 1em 2.2em;
-    }
-
+.prev, .next,.text {font-size: 11px}
 }
