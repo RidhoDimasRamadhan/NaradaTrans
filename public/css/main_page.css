@@ -399,6 +399,53 @@ animation-duration: 3.5s;
   }
 }
 
+@media only screen and (max-width: 576px) {
+  .profile-title {
+    padding: 2rem 0;
+    padding-right: 5rem;
+    padding-left: 2rem;
+  }
+
+  .line {
+    width:100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .line {
+    width:80%;
+  }
+
+  .profile-title {
+    padding: 2rem 0;
+    padding-right: 5rem;
+    padding-left: 2rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .navbarGap {
+      margin: 1em 2.2em;
+  }
+  .profile-title {
+    padding: 2rem 0;
+    padding-right: 5rem;
+    padding-left: 2rem;
+  }
+
+  .line {
+    width:100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .profile-title {
+    padding: 2rem 0;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
 .wrapper2{
   width: 100%;
   margin-bottom: 3rem;

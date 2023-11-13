@@ -61,6 +61,8 @@ body{
 .owl-dot.active,
 .owl-dot:hover{
   background: #0072bc!important;
+}
+
 .section {
     margin-top: 1em;
 }

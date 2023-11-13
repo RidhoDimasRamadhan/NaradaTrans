@@ -230,7 +230,8 @@
           <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
             <a href="#" class="text-white pb-3">Home</a>
           </div>
-          <div Komen ="d-flex justify-content-lg-between border-bottom mb-3 line">
+          <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
+            <a href="#" class="text-white pb-3">Profile</a>
           </div>
           <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
             <a href="#" class="text-white pb-3">Kontak</a>
