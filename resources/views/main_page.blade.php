@@ -3,17 +3,12 @@
 <script src="https://kit.fontawesome.com/08692cf6f2.js" crossorigin="anonymous"></script>
 
 @section('content')
-{{-- <div class="container"> --}}
 
 <div id="navbar">
 </div>
-
-<!-- Crousserl -->
-
-
+<!-- Home Page -->
 
 <div class="slideshow-container" id="home">
-
     <div class="container row col-lg-12 kalimat">
             <div class ="col-xl-8 rounded-lg">
                        <div class="row mt-5">
@@ -28,10 +23,10 @@
                         </div>
             </div>
 
-      <div class ="col-xl-4 rounded-lg">
-          <div class="row mb-3"></div>
+        <div class ="col-xl-4 rounded-lg">
+            <div class="row mb-3"></div>
+        </div>
       </div>
-    </div>
 
         <div class="mySlides">
           <img src="{{ URL('images/bgBeranda.png') }}" style="width:100%">
@@ -44,15 +39,13 @@
         <a class="next" onclick="plusSlides(1)">></a>
 </div>
 
-<!-- <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div> -->
+      <!-- <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div> -->
+<!-- end Komen Honm Page -->
 
-<!-- end Crousel -->
-
-<!-- Profil Page -->
 
 <section class="d-flex justify-content-center justify-content-lg-between section">
   <div class="container-fluid text-md-start">
@@ -99,22 +92,77 @@
       </div>
     </div>
   </div>
-    <!-- <h1 class="w-50 mx-auto text-center fw-bold text-black">Armada<span class="naradaText"> Kami</span></h1>
-    <div class="container-fluid">
+
+  <!-- Armada Kami -->
+    <h1 class="w-50 mx-auto text-center fw-bold text-black">Armada<span class="naradaText"> Kami</span></h1>
       <div class="wrapper">
-        <i id="left" class="fa-solid fa-angle-left"></i>
+          <i id="left" class="fa-solid fa-angle-left"></i>
         <div class="carousel">
           <img src="{{ URL('images/busPutih.png') }}" alt="img" draggable="false">
-        <img src="{{ URL('images/busYellow.jpg') }}" alt="img" draggable="false">
-        <img src="{{ URL('images/busBiru.png') }}" alt="img" draggable="false">
+          <img src="{{ URL('images/busYellow.jpg') }}" alt="img" draggable="false">
+          <img src="{{ URL('images/busBiru.png') }}" alt="img" draggable="false">
+          <!-- <img src="{{ URL('images/bisUngu.png') }}" alt="img" draggable="false"> -->
+          <img src="{{ URL('images/bisUngu2.png') }}" alt="img" draggable="false">
+          <img src="{{ URL('images/bisBiru2.png') }}" alt="img" draggable="false">
+        </div>
+          <i id="right" class="fa-solid fa-angle-right"></i>
+        </div>
       </div>
-      <i id="right" class="fa-solid fa-angle-right"></i>
-    </div>
-    </div> -->
-  </div>
+    <!-- End Armada Kami -->
+
 </section>
 
-<!-- Profil Page -->
+
+<!-- Komentar Perjalanan -->
+<h1 class="w-50 mx-auto text-center fw-bold text-black">Kesan Perjalanan Penumpang Bersama <span class="naradaText"> NaradaTrans</span></h1>
+<div class="wrapper2">
+         <div class="carousel2 owl-carousel">
+
+            <div class="card card-1">
+              <div class="container col-12">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="{{ URL('images/orang1.png') }}" alt="">
+                  </div>
+
+                  <div class="col-8 anjengg">
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus unde nemo sit magni iure. Magni nesciunt aut tenetur soluta sunt?</P>
+                  </div>
+                </div>
+              </div>
+
+               <!-- <div class="left">
+                  <div class="kumpulanLeft">
+                    <p>a</p>
+                  </div>
+               </div>
+               <div class="right">
+                <div class="kumpulanRight">
+                  <p>b</p>
+                </div>
+               </div> -->
+
+            </div>
+            <div class="card card-2">
+               <div class="left"></div>
+               <div class="right"></div>
+            </div>
+            <div class="card card-3">
+               <div class="left"></div>
+               <div class="right"></div>
+            </div>
+            <div class="card card-4">
+               <div class="left"></div>
+               <div class="right"></div>
+            </div>
+            <div class="card card-5">
+               <div class="left"></div>
+               <div class="right"></div>
+            </div>
+         </div>
+</div>
+<!-- End Komen Perjalanan  -->
+
 
 <!-- Footer -->
 <footer class="text-lg-start bg-footer text-muted">
@@ -186,8 +234,7 @@
           <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
             <a href="#" class="text-white pb-3">Home</a>
           </div>
-          <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
-            <a href="#" class="text-white pb-3">Profil</a>
+          <div Komen ="d-flex justify-content-lg-between border-bottom mb-3 line">
           </div>
           <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
             <a href="#" class="text-white pb-3">Kontak</a>
@@ -222,49 +269,12 @@
     </div>
   </section>
   <!-- Section: Links  -->
-
-  
 </footer>
+<!-- <script src="/js/main_page.js"></script> -->
 
 <script>
-  window.onscroll = function() {myFunction()};
-
-  var navbar = document.getElementById("navbar");
-  var sticky = navbar.offsetTop;
-
-  function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
-    }
-  }
-
-
-  let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-
-
+  
+// Caraousel
 const carousel = document.querySelector(".carousel"),
 firstImg = carousel.querySelectorAll("img")[0],
 arrowIcons = document.querySelectorAll(".wrapper i");
@@ -338,8 +348,69 @@ carousel.addEventListener("touchmove", dragging);
 
 document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("touchend", dragStop);
+window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+
+  // Komentar Pengguna
+  $(".carousel2").owlCarousel({
+    margin: 20,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    responsive: {
+      0:{
+        items:1,
+        nav: false
+      },
+      600:{
+        items:2,
+        nav: false
+      },
+      1000:{
+        items:2,
+        nav: false
+      }
+    }
+  });
+  // end Komentar Pengguna
+
+// HomePage
+  let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
 </script>
+
 <!-- Footer -->
-{{-- </div> --}}
 
 @endsection
