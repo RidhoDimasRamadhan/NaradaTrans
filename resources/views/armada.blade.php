@@ -12,7 +12,9 @@
         </div>
         <div class="row d-flex justify-content-center mb-5">
             <div class="col-md-1 col-lg-2 col-xl-5">
+              <a href="/Modal/busPutih" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                 <img src="{{ URL('images/armada/img1.png') }}" alt="img" class="armada-img">
+              </a>
             </div>
             <div class="col-md-1 col-lg-2 col-xl-5">
                 <img src="{{ URL('images/armada/img2.png') }}" alt="img" class="armada-img">
@@ -62,6 +64,16 @@
     </div>
   </div>
 </section>
+
+<!-- <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+bangkee
+</button>  -->
+
+<!-- Modal -->
+ 
+<!-- <div class="">
+  ...
+</div> -->
 
 <footer class="text-lg-start bg-footer text-muted">
 

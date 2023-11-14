@@ -68,7 +68,7 @@ a:is(:link, :active, :visited).active{
     }
     button {
         position: relative;
-        right: -14rem;
+        right: -12rem;
         top: -3rem;
     }
 

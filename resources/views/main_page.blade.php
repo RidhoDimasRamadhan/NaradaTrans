@@ -1,4 +1,4 @@
-
+<script src="https://kit.fontawesome.com/08692cf6f2.js" crossorigin="anonymous"></script>
 @extends('Template/base')
 <script src="https://kit.fontawesome.com/08692cf6f2.js" crossorigin="anonymous"></script>
 
@@ -6,19 +6,25 @@
 
 <div id="navbar">
 </div>
-<!-- Home Page -->
 
+<a href="https://wa.me/089501300359" class="up-icon"><i class="fa-brands fa-whatsapp" style="color: #00e034;"></i></a>
+<!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
+
+<!-- Home Page -->
 <div class="slideshow-container" id="home">
     <div class="container row col-lg-12 kalimat">
             <div class ="col-xl-8 rounded-lg">
                        <div class="row mt-5">
-                            <div class="col-12 ms-5">
-                                <p class="AboveWord">Anda ingin berpergian dengan BUS?</p>
-                                <H1 style="font-weight:bolder;">NaradaTrans</H1>
-                                <h1>Pilihan Terbaik </br> 
-                                  Untuk Anda</h1>
-
+                            <div class="col-12 ms-5 aww">
+                                <div class="container FleksibelHomePage" >
+                                  <p class="AboveWord">Anda ingin berpergian dengan BUS ?</p>
+                                  <div class="wordHomePage">
+                                    <p ><Span style="font-weight:bolder;">NaradaTrans</Span> Pilihan Terbaik <br>Untuk Anda</p>
+                                  </div>
+                                </div>
+                                <div class="pesan">
                                   <p class ="deliver"><a href="https://wa.me/089501300359">Pesan Sekarang</a></p>
+                                </div>
                             </div>
                         </div>
             </div>
@@ -58,7 +64,7 @@
             <img src="{{ URL('images/armadaBadge.png') }}" alt="">
           </div>
           <div class="mt-3 text-center">
-            <h4 class="title-card">Armada Modern</h4>
+            <h4 class="title-card">Armada Modern </h4>
             <p class="descProfile px-2 px-lg-5">Armada modern dan nyaman dengan fasilitas AC, WiFi, TV, dan keamanan terkini.</p>
           </div>
       </div>
@@ -94,13 +100,20 @@
   </div>
 
   <!-- Armada Kami -->
-    <h1 class="w-50 mx-auto text-center fw-bold text-black py-4">Armada<span class="naradaText"> Kami</span></h1>
+    <h1 class="mx-auto text-center fw-bold text-black py-4 mt-5">Armada<span class="naradaText"> Kami</span></h1>
       <div class="wrapper">
           <i id="left" class="fa-solid fa-angle-left"></i>
-        <div class="carousel">
-          <img src="{{ URL('images/busPutih.png') }}" alt="img" draggable="false">
+          <!-- <a href="/Modal/busPutih" class="busPutih"  type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <h1>apa yaklkk</h1>
+            </a>  -->
+      <div class="carousel">
+      <!-- <a href="https://www.google.com/"><h1>hoogle</h1></a> -->
+        <img src="{{ URL('images/busPutih.png') }}" alt="img" draggable="false">
         <img src="{{ URL('images/busYellow.jpg') }}" alt="img" draggable="false">
         <img src="{{ URL('images/busBiru.png') }}" alt="img" draggable="false">
+        <img src="{{ URL('images/bisUngu.png') }}" alt="img" draggable="false">
+        <img src="{{ URL('images/bisBiru2.png') }}" alt="img" draggable="false">
+        <img src="{{ URL('images/bisUngu2.png') }}" alt="img" draggable="false">
       </div>
       <i id="right" class="fa-solid fa-angle-right"></i>
     </div>
@@ -108,9 +121,29 @@
   </div>
 </section>
 
+<section class="d-flex justify-content-center justify-content-lg-between section">
+  <div class="container-fluid text-md-start">
+    <div class="d-flex justify-content-center py-5">
+      <div class="row ribbon mb-4">
+        <div class="col-md-3 col-lg-7 col-xl-3">
+          <img src="{{ URL('images/img4.png') }}" alt="img" class="img-ribbon">
+        </div>
+        <div class="col-md-3 col-lg-7 col-xl-3 text-white text-ribbon">
+          <h1 class="fw-bold">Anda Tertarik?</h1>
+          <p class="">Silahkan hubungi kami dan download e-brochure untuk informasi lebih lanjut.</p>
+        </div>
+        <div class="col-md-3 col-lg-7 col-xl-6 btn-ribbon">
+          <button type="button" class="btn-kontak text-white">KONTAK</button>
+          <button type="button" class="btn-download text-white">Download Brosur</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <!-- Komentar Perjalanan -->
-<h1 class="w-50 mx-auto text-center fw-bold text-black">Kesan Perjalanan Penumpang Bersama <span class="naradaText"> NaradaTrans</span></h1>
+<!-- <h1 class="w-50 mx-auto text-center fw-bold text-black">Kesan Perjalanan Penumpang Bersama <span class="naradaText"> NaradaTrans</span></h1>
 <div class="wrapper2">
          <div class="carousel2 owl-carousel">
 
@@ -125,7 +158,7 @@
                     <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus unde nemo sit magni iure. Magni nesciunt aut tenetur soluta sunt?</P>
                   </div>
                 </div>
-              </div>
+              </div> -->
 
                <!-- <div class="left">
                   <div class="kumpulanLeft">
@@ -138,7 +171,7 @@
                 </div>
                </div> -->
 
-            </div>
+            <!-- </div>
             <div class="card card-2">
                <div class="left"></div>
                <div class="right"></div>
@@ -156,7 +189,7 @@
                <div class="right"></div>
             </div>
          </div>
-</div>
+</div> -->
 <!-- End Komen Perjalanan  -->
 
 
@@ -270,7 +303,24 @@
 <!-- <script src="/js/main_page.js"></script> -->
 
 <script>
-  
+// let mybutton = document.getElementById("myBtn");
+
+// // When the user scrolls down 20px from the top of the document, show the button
+// window.onscroll = function() {scrollFunction()};
+
+// function scrollFunction() {
+//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//     mybutton.style.display = "block";
+//   } else {
+//     mybutton.style.display = "none";
+//   }
+// }
+
+// // When the user clicks on the button, scroll to the top of the document
+// function topFunction() {
+//   document.body.scrollTop = 0;
+//   document.documentElement.scrollTop = 0;
+// }
 // Caraousel
 const carousel = document.querySelector(".carousel"),
 firstImg = carousel.querySelectorAll("img")[0],
@@ -405,6 +455,13 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+// $("a").click(function (e) {
+//     e.preventDefault();
+//     var href = $(this).attr("href");
+//     window.open(href);
+//     return false;
+// });
+
 
 </script>
 

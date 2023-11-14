@@ -6,6 +6,8 @@ use App\Http\Controllers\Main_PageController;
 use App\Http\Controllers\armadaController;
 use App\Http\Controllers\galeriController;
 use App\Http\Controllers\hargaController;
+use App\Http\Controllers\Modal\BusController;
+// use App\Http\Controllers\busPutihController;
 
 
 /*
@@ -36,11 +38,16 @@ Route::get('/kontak',function(){
     ]);
 });
 
+// Route::get('/Modal/busPutih',function(){
+//     return view('/Modal/busPutih');
+// });
+
 Route::get('/armada',[armadaController::class,'armada']);
 Route::get('/galeri',[galeriController::class,'galeri']);
 Route::get('/profile',[profileController::class,'profile']);
 Route::get('/main_page',[Main_PageController::class,'main_page']);
 Route::get('/harga',[hargaController::class,'harga']);
+Route::get('/Modal/busPutih',[BusController::class,'busPutih']);
 
 
 
