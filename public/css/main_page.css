@@ -318,13 +318,15 @@ animation-duration: 3.5s;
   padding-bottom: 3rem;
 }
 
-.text-ribbon h1 {
+.text-ribbon h3 {
   font-size: 33px;
+  padding-left: 3rem;
 }
 
 .text-ribbon p {
   font-size: 13px;
-  padding-right: 16px;
+  width: 72%;
+  padding-left: 3rem;
 }
 
 .btn-ribbon {
@@ -336,7 +338,7 @@ animation-duration: 3.5s;
   border: none;
   background-color: #EEA953;
   border-radius: 50px;
-  padding: 12px 55px;
+  padding: 12px 25px;
   font-weight: bold;
   margin-right: 15px;
 }
@@ -345,7 +347,7 @@ animation-duration: 3.5s;
   border: 1px solid white;
   background-color: transparent;
   border-radius: 50px;
-  padding: 12px 55px;
+  padding: 12px 25px;
   font-weight: bold;
 }
 
@@ -562,18 +564,61 @@ animation-duration: 3.5s;
 }
 
 @media only screen and (max-width: 576px) {
-  /* For tablets: */
-  .navbar-brand {
-      left: -4rem;
-      top: 0;
-      position: relative;
+  
+  .ribbon {
+    height: 520px;
+    width: 80%;
+    border-radius: 20px;
   }
-  .navbar-toggler {
-      position: relative;
-      right: 2rem;
-      top: 0;
+  
+  .img-ribbon {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    right: 0;
   }
-
+  
+  .text-ribbon {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+  
+  .text-ribbon h3 {
+    font-size: 33px;
+    padding-left: 0;
+  }
+  
+  .text-ribbon p {
+    font-size: 13px;
+    width: 52%;
+    padding-left: 0;
+    margin: auto;
+  }
+  
+  .btn-ribbon {
+    margin-left: 2rem;
+    width: 0;
+    padding-top: .3rem;
+    padding-bottom: 4.3rem;
+  }
+  
+  .btn-kontak {
+    border: none;
+    background-color: #EEA953;
+    border-radius: 50px;
+    padding: 12px 55px;
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  
+  .btn-download {
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 12px 55px;
+    font-weight: bold;
+  }
 }
 
 
@@ -610,6 +655,61 @@ animation-duration: 3.5s;
     padding: 2rem 0;
     padding-right: 5rem;
     padding-left: 2rem;
+  }
+
+  .ribbon {
+    height: 520px;
+    width: 80%;
+    border-radius: 20px;
+  }
+  
+  .img-ribbon {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    right: 0;
+  }
+  
+  .text-ribbon {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+  
+  .text-ribbon h3 {
+    font-size: 33px;
+    padding-left: 0;
+  }
+  
+  .text-ribbon p {
+    font-size: 13px;
+    width: 52%;
+    padding-left: 0;
+    margin: auto;
+  }
+  
+  .btn-ribbon {
+    margin-left: 2rem;
+    width: 0;
+    padding-top: .3rem;
+    padding-bottom: 4.3rem;
+  }
+  
+  .btn-kontak {
+    border: none;
+    background-color: #EEA953;
+    border-radius: 50px;
+    padding: 12px 55px;
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  
+  .btn-download {
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 12px 55px;
+    font-weight: bold;
   }
 }
 
