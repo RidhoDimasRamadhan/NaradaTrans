@@ -358,7 +358,7 @@ animation-duration: 3.5s;
     position: relative;
   }
 
-  button {
+  .navbar-toggler {
     position: relative;
     right: -11rem;
     top: -3rem;
@@ -560,6 +560,22 @@ animation-duration: 3.5s;
   width: auto;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 576px) {
+  /* For tablets: */
+  .navbar-brand {
+      left: -4rem;
+      top: 0;
+      position: relative;
+  }
+  .navbar-toggler {
+      position: relative;
+      right: 2rem;
+      top: 0;
+  }
+
+}
+
 
 @media screen and (max-width: 900px) {
   .carousel img {

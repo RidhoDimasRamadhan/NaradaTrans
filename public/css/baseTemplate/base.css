@@ -66,11 +66,25 @@ a:is(:link, :active, :visited).active{
         top: 0;
         position: relative;
     }
-    button {
+    .navbar-toggler {
         position: relative;
         right: -12rem;
         top: -3rem;
     }
 
-  }
+}
+@media only screen and (max-width: 576px) {
+    /* For tablets: */
+    .navbar-brand {
+        left: -4rem;
+        top: 0;
+        position: relative;
+    }
+    .navbar-toggler {
+        position: relative;
+        right: 5rem;
+        top: 0;
+    }
+
+}
 

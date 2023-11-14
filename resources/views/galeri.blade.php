@@ -18,17 +18,17 @@
                 </ul>
         </div>
         <div class="row galeri pt-4">
-            <div class="col-md-3 col-lg-3 col-xl-3 galeri-grid">
+            <div class="col-sm-4 col-md-4 col-lg-3 col-xl-3 galeri-grid">
                 <img src="{{ URL('images/armada/img1.png') }}" alt="img" class="galeri-img">
                 <img src="{{ URL('images/armada/img2.png') }}" alt="img" class="galeri-img">
                 <img src="{{ URL('images/armada/img3.png') }}" alt="img" class="galeri-img">
             </div>
-            <div class="col-md-3 col-lg-3 col-xl-3 galeri-grid">
+            <div class="col-sm-4 col-md-4 col-lg-3 col-xl-3 galeri-grid">
                 <img src="{{ URL('images/img1.png') }}" alt="img" class="galeri-img">
                 <img src="{{ URL('images/img2.png') }}" alt="img" class="galeri-img">
                 <img src="{{ URL('images/img3.png') }}" alt="img" class="galeri-img">
             </div>
-            <div class="col-md-3 col-lg-3 col-xl-3">
+            <div class="col-sm-4 col-md-4 col-lg-3 col-xl-3">
                 <img src="{{ URL('images/armada/img1.png') }}" alt="img" class="galeri-img">
                 <img src="{{ URL('images/armada/img1.png') }}" alt="img" class="galeri-img">
                 <img src="{{ URL('images/armada/img1.png') }}" alt="img" class="galeri-img">
@@ -40,12 +40,6 @@
 
 <section class="d-flex justify-content-center justify-content-lg-between section">
   <div class="container-fluid text-md-start">
-    <div class="d-flex justify-content-center py-4">
-      <div id="banner-img" class="banner">
-        <h1 class="fw-bold text-white mx-auto text-center pt-5 pb-3">Sewa BUS terpercaya <span class="naradaBanner">NaradaTrans</span> solusinya</h1>
-        <img src="{{ URL('images/play.png') }}" alt="play" class="d-block mx-auto">
-      </div>
-    </div>
     <div class="d-flex justify-content-center py-5">
       <div class="row ribbon mb-4">
         <div class="col-md-3 col-lg-7 col-xl-3">
