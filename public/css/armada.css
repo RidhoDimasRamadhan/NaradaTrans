@@ -1,0 +1,22 @@
+.armada-headline h3,h1 {
+    text-align: center;
+}
+
+.armada-headline h3 {
+    font-size: 27px;
+    font-weight: 500;
+    padding: .5rem 0;
+}
+
+.armada-headline h1 {
+    font-size: 50px;
+    font-weight: 800;
+    width: 40%;
+    padding-bottom: 1rem;
+}
+
+.armada-img {
+    height: 390px;
+    width: 510px;
+    border-radius: 12px;
+}

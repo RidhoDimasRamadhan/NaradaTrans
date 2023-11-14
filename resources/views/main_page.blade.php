@@ -94,22 +94,18 @@
   </div>
 
   <!-- Armada Kami -->
-    <h1 class="w-50 mx-auto text-center fw-bold text-black">Armada<span class="naradaText"> Kami</span></h1>
+    <h1 class="w-50 mx-auto text-center fw-bold text-black py-4">Armada<span class="naradaText"> Kami</span></h1>
       <div class="wrapper">
           <i id="left" class="fa-solid fa-angle-left"></i>
         <div class="carousel">
           <img src="{{ URL('images/busPutih.png') }}" alt="img" draggable="false">
-          <img src="{{ URL('images/busYellow.jpg') }}" alt="img" draggable="false">
-          <img src="{{ URL('images/busBiru.png') }}" alt="img" draggable="false">
-          <!-- <img src="{{ URL('images/bisUngu.png') }}" alt="img" draggable="false"> -->
-          <img src="{{ URL('images/bisUngu2.png') }}" alt="img" draggable="false">
-          <img src="{{ URL('images/bisBiru2.png') }}" alt="img" draggable="false">
-        </div>
-          <i id="right" class="fa-solid fa-angle-right"></i>
-        </div>
+        <img src="{{ URL('images/busYellow.jpg') }}" alt="img" draggable="false">
+        <img src="{{ URL('images/busBiru.png') }}" alt="img" draggable="false">
       </div>
-    <!-- End Armada Kami -->
-
+      <i id="right" class="fa-solid fa-angle-right"></i>
+    </div>
+    </div>
+  </div>
 </section>
 
 
@@ -234,7 +230,8 @@
           <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
             <a href="#" class="text-white pb-3">Home</a>
           </div>
-          <div Komen ="d-flex justify-content-lg-between border-bottom mb-3 line">
+          <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
+            <a href="#" class="text-white pb-3">Profile</a>
           </div>
           <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
             <a href="#" class="text-white pb-3">Kontak</a>

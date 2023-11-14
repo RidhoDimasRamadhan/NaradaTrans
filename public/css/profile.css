@@ -62,3 +62,69 @@ body{
 .owl-dot:hover{
   background: #0072bc!important;
 }
+
+.section {
+    margin-top: 1em;
+}
+
+.section-secArticle {
+    position: relative;
+    top: 0;
+}
+
+.article-left {
+    padding-top: 2rem;
+    padding-left: 6rem;
+}
+
+.article-left h2 {
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 32px;
+}
+
+.article-left h1 {
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 75px;
+}
+
+.text-brown {
+    color: #AB3C16;
+}
+
+.img1 {
+    margin-left: 152px;
+    height: 789px;
+}
+
+.article-img {
+    position: relative;
+    right: 12px;
+    margin-right: 600px;
+}
+
+.article-right {
+    position: relative;
+}
+
+.article-right {
+    padding-top: 10rem;
+    padding-left: 3rem;
+}
+
+.article-right h2 {
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 32px;
+}
+
+.article-right h1 {
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 75px;
+}
+
+.article-right p {
+    width: 90%;
+}
