@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class BusController extends Controller
 {
     public function busPutih(){
-        dd('ridho');
+        // dd('ridho');
         return view('/Modal/busPutih',['judul'=>'busPutih']);
     }
 }

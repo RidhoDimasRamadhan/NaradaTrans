@@ -1,8 +1,8 @@
-
-.ParentNavbar{
+.ParentNavbar {
     /* position: fixed; */
     width: 100%;
 }
+
 .navbar {
     padding: 2rem 5.8rem;
     overflow: hidden;
@@ -25,34 +25,35 @@
     background-color: white;
 }
 
-#navbarlink{
+#navbarlink {
     color: #47110E;
-    text-decoration:none;
-    padding:8px 13px;
+    text-decoration: none;
+    padding: 8px 13px;
     font-weight: bold;
-    border-radius:15px;
+    border-radius: 15px;
 }
 
 a#active {
-    background-color:#47110E;
-    color:white;
+    background-color: #47110E;
+    color: white;
 }
 
 #navbarlink:hover {
-    background-color:#47110E;
+    background-color: #47110E;
     color: white;
-    transition:.2s
+    transition: .2s
 }
 
 .navbarIco {
     width: 22px;
     position: relative;
-    top:2px;
+    top: 2px;
 }
 
 .carousel {
-    z-index:-1;
+    z-index: -1;
 }
+
 /* 
 a:is(:link, :active, :visited).active{
     background-color: red;
@@ -60,12 +61,14 @@ a:is(:link, :active, :visited).active{
 } */
 
 @media only screen and (max-width: 500px) {
+
     /* For tablets: */
     .navbar-brand {
         left: -4rem;
         top: 0;
         position: relative;
     }
+
     .navbar-toggler {
         position: relative;
         right: -12rem;
@@ -73,18 +76,21 @@ a:is(:link, :active, :visited).active{
     }
 
 }
+
 @media only screen and (max-width: 576px) {
+
     /* For tablets: */
     .navbar-brand {
         left: -4rem;
         top: 0;
         position: relative;
     }
-    .navbar-toggler {
+
+    /* .navbar-toggler {
         position: relative;
         right: 5rem;
         top: 0;
-    }
+    } */
 
 }
 
