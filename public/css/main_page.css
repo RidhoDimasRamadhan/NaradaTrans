@@ -308,8 +308,6 @@ animation-duration: 3.5s;
 }
 
 .img-ribbon {
-  position: relative;
-  right: .7rem;
   border-radius: 20px;
 }
 
@@ -325,11 +323,13 @@ animation-duration: 3.5s;
 
 .text-ribbon p {
   font-size: 13px;
-  width: 72%;
+  width: 56%;
   padding-left: 3rem;
 }
 
 .btn-ribbon {
+  position: relative;
+  top:0;
   padding-top: 4.3rem;
   padding-bottom: 4.3rem;
 }
@@ -338,17 +338,17 @@ animation-duration: 3.5s;
   border: none;
   background-color: #EEA953;
   border-radius: 50px;
-  padding: 12px 25px;
+  padding: 10px 25px;
   font-weight: bold;
-  margin-right: 15px;
 }
 
 .btn-download {
   border: 1px solid white;
   background-color: transparent;
   border-radius: 50px;
-  padding: 12px 25px;
+  padding: 10px 25px;
   font-weight: bold;
+  margin-right: 20px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -564,62 +564,197 @@ animation-duration: 3.5s;
 }
 
 @media only screen and (max-width: 576px) {
-  
   .ribbon {
-    height: 520px;
-    width: 80%;
+    height: 420px;
+    width: 100%;
     border-radius: 20px;
   }
-  
+
   .img-ribbon {
     width: 100%;
-    height: 50%;
-    position: relative;
-    right: 0;
+    height: 200px;
+    border-radius: 20px;
   }
-  
+
   .text-ribbon {
-    padding-top: 1rem;
-    padding-bottom: 3rem;
+    display: block;
+    margin: auto;
     text-align: center;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
   }
   
   .text-ribbon h3 {
+    margin: auto;
+    text-align: center;
     font-size: 33px;
     padding-left: 0;
   }
   
   .text-ribbon p {
-    font-size: 13px;
-    width: 52%;
-    padding-left: 0;
+    text-align: center;
     margin: auto;
+    font-size: 13px;
+    width: 46.5%;
+    padding-left: 0;
   }
   
   .btn-ribbon {
-    margin-left: 2rem;
-    width: 0;
-    padding-top: .3rem;
-    padding-bottom: 4.3rem;
+    width:100%;
+    padding-top: 0rem;
+    display:block;
+    position: relative;
+    left:0;
   }
   
   .btn-kontak {
+    margin-bottom: 10px;
     border: none;
+    width:100%;
     background-color: #EEA953;
     border-radius: 50px;
-    padding: 12px 55px;
+    padding: .5rem 0;
     font-weight: bold;
-    margin-right: 15px;
   }
   
   .btn-download {
+    width:100%;
     border: 1px solid white;
     background-color: transparent;
     border-radius: 50px;
-    padding: 12px 55px;
+    padding: .5rem 0;
     font-weight: bold;
+    margin-right: 20px;
   }
 }
+@media only screen and (max-width: 768px) {
+  .ribbon {
+    height: 420px;
+    width: 80%;
+    border-radius: 20px;
+  }
+
+  .img-ribbon {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+  }
+
+  .text-ribbon {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+  }
+  
+  .text-ribbon h3 {
+    margin: auto;
+    text-align: center;
+    font-size: 33px;
+    padding-left: 0;
+  }
+  
+  .text-ribbon p {
+    text-align: center;
+    margin: auto;
+    font-size: 13px;
+    width: 46.5%;
+    padding-left: 0;
+  }
+  
+  .btn-ribbon {
+    width:100%;
+    padding-top: 0rem;
+    display:block;
+    position: relative;
+    left:0;
+  }
+  
+  .btn-kontak {
+    margin-bottom: 10px;
+    border: none;
+    width:100%;
+    background-color: #EEA953;
+    border-radius: 50px;
+    padding: .5rem 0;
+    font-weight: bold;
+  }
+  
+  .btn-download {
+    width:100%;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 50px;
+    padding: .5rem 0;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .ribbon {
+    height: 81%;
+    width: 80%;
+    border-radius: 20px;
+  }
+
+  .img-ribbon {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+  }
+
+  .text-ribbon {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+  }
+  
+  .text-ribbon h3 {
+    margin: auto;
+    text-align: center;
+    font-size: 33px;
+    padding-left: 0;
+  }
+  
+  .text-ribbon p {
+    text-align: center;
+    margin: auto;
+    font-size: 13px;
+    width: 97%;
+    padding-left: 0;
+  }
+  
+  .btn-ribbon {
+    width:100%;
+    padding-top: 4rem;
+    display:block;
+  }
+  
+  .btn-kontak {
+    margin-bottom: 0;
+    border: none;
+    width:100%;
+    background-color: #EEA953;
+    border-radius: 50px;
+    padding: .5rem 0;
+    font-weight: bold;
+  }
+  
+  .btn-download {
+    width:100%;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 50px;
+    padding: .5rem 0;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+}
+
+
 
 
 @media screen and (max-width: 900px) {
@@ -655,61 +790,6 @@ animation-duration: 3.5s;
     padding: 2rem 0;
     padding-right: 5rem;
     padding-left: 2rem;
-  }
-
-  .ribbon {
-    height: 520px;
-    width: 80%;
-    border-radius: 20px;
-  }
-  
-  .img-ribbon {
-    width: 100%;
-    height: 50%;
-    position: relative;
-    right: 0;
-  }
-  
-  .text-ribbon {
-    padding-top: 1rem;
-    padding-bottom: 3rem;
-    text-align: center;
-  }
-  
-  .text-ribbon h3 {
-    font-size: 33px;
-    padding-left: 0;
-  }
-  
-  .text-ribbon p {
-    font-size: 13px;
-    width: 52%;
-    padding-left: 0;
-    margin: auto;
-  }
-  
-  .btn-ribbon {
-    margin-left: 2rem;
-    width: 0;
-    padding-top: .3rem;
-    padding-bottom: 4.3rem;
-  }
-  
-  .btn-kontak {
-    border: none;
-    background-color: #EEA953;
-    border-radius: 50px;
-    padding: 12px 55px;
-    font-weight: bold;
-    margin-right: 15px;
-  }
-  
-  .btn-download {
-    border: 1px solid white;
-    background-color: transparent;
-    border-radius: 50px;
-    padding: 12px 55px;
-    font-weight: bold;
   }
 }
 
