@@ -15,7 +15,7 @@
                     <p>Seiring dengan berjalannya waktu, NaradaTrans telah banyak melayani perusahaan-perusahaan swasta lokal dan asing, BUMN, sekolah-sekolah swasta, negeri maupun internasional, yayasan-yayasan sosial, dan acara-acara keluarga seperti perkawinan dan mudik.</p>
                     <p>Komitmen NaradaTrans adalah memberikan layanan transportasi yang handal, nyaman, dan aman bagi setiap pelanggan kami. Dengan armada yang terjamin kualitasnya, kami siap memberikan pengalaman perjalanan yang memuaskan dan mengantarkan Anda dengan tepat waktu ke tujuan.</p>
                 </div> 
-            <div class="">
+            <div class="img-responsive text-center">
                 <img src="{{ URL('images/img1.png') }}" alt="img" class="img1">
             </div>
         </div>
@@ -25,7 +25,7 @@
 <section class="d-flex justify-content-center justify-content-lg-between" style="margin-bottom: 2rem;">
     <div class="container-fluid text-md-start">
         <div class="d-lg-flex d-sm-block justify-content-lg-between">
-            <div class="article-img">
+            <div class="article-img text-center">
                 <img src="{{ URL('images/img2.png') }}" alt="img" class="img2">
                 <img src="{{ URL('images/img3.png') }}" alt="img" class="img3">
             </div>  

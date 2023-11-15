@@ -43,19 +43,16 @@
 }
 
 .galeri-option {
-    padding-left: 100px;
+    width: 100%;
+    padding-left: 4.5rem;
 }
 
 .galeri {
-    margin-left: 88px;
-}
-
-.galeri-grid {
-    margin-right: 75px;
+    justify-content: space-evenly;
 }
 
 .galeri-img {
-    width: 18.7rem;
+    width: 100%;
     height: 17.5rem;
     margin-bottom: 50px;
     border-radius: 10px;
@@ -72,7 +69,12 @@
 
 @media only screen and (max-width: 576px) {
     .galeri {
-        margin-left: 0;
+        margin: auto;
+    }
+    
+    .galeri-img {
+        width: 8rem;
+        height: 5rem;
     }
 
     .galeri-option {
@@ -91,22 +93,9 @@
         width: 100%;
         padding-bottom: .5rem;
     }
-
-    .galeri-img {
-        width: 9.7rem;
-        height: 8.5rem;
-        margin-bottom: 50px;
-        border-radius: 10px;
-    }
-    .galeri-grid {
-        margin-right: 0;
-    }
 }
 
 @media only screen and (max-width: 768px) {
-    .galeri {
-        margin-left: 0;
-    }
     .galeri-headline h3 {
         font-size: 1.5rem;
         font-weight: 500;
@@ -122,12 +111,29 @@
 
     .galeri-img {
         width: 12rem;
-        height: 10rem;
-        margin-bottom: 50px;
-        border-radius: 10px;
+        height: 8rem;
     }
-    .galeri-grid {
-        margin-right: 0;
+    .galeri-option {
+        padding-left: 0;
     }
 
+}
+
+@media only screen and (max-width: 992px) {
+    .galeri-headline h3 {
+        font-size: 1.8rem;
+        font-weight: 500;
+        padding: .5rem 0;
+    }
+    
+    .galeri-headline h1 {
+        font-size: 2.8rem;
+        font-weight: 800;
+        width: 100%;
+        padding-bottom: .5rem;
+    }
+
+    .galeri-option {
+        padding-left:0;
+    }
 }

@@ -565,7 +565,7 @@ animation-duration: 3.5s;
 
 @media only screen and (max-width: 576px) {
   .ribbon {
-    height: 420px;
+    height: 440px;
     width: 100%;
     border-radius: 20px;
   }
@@ -629,7 +629,7 @@ animation-duration: 3.5s;
 }
 @media only screen and (max-width: 768px) {
   .ribbon {
-    height: 420px;
+    height: 440px;
     width: 80%;
     border-radius: 20px;
   }
@@ -691,7 +691,7 @@ animation-duration: 3.5s;
     margin-right: 20px;
   }
 }
-@media only screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .ribbon {
     height: 81%;
     width: 80%;

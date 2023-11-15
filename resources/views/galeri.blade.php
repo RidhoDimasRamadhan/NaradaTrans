@@ -18,12 +18,12 @@
                 </ul>
         </div>
         <div class="row galeri pt-4">
-            <div class="col-sm-4 col-md-4 col-lg-3 col-xl-3 galeri-grid">
+            <div class="col-sm-4 col-md-4 col-lg-3 col-xl-3">
                 <img src="{{ URL('images/armada/img1.png') }}" alt="img" class="galeri-img">
                 <img src="{{ URL('images/armada/img2.png') }}" alt="img" class="galeri-img">
                 <img src="{{ URL('images/armada/img3.png') }}" alt="img" class="galeri-img">
             </div>
-            <div class="col-sm-4 col-md-4 col-lg-3 col-xl-3 galeri-grid">
+            <div class="col-sm-4 col-md-4 col-lg-3 col-xl-3">
                 <img src="{{ URL('images/img1.png') }}" alt="img" class="galeri-img">
                 <img src="{{ URL('images/img2.png') }}" alt="img" class="galeri-img">
                 <img src="{{ URL('images/img3.png') }}" alt="img" class="galeri-img">
