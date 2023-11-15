@@ -119,10 +119,19 @@
             Menu Utama
           </h6>
           <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
-            <a href="#" class="text-white pb-3">Home</a>
+            <a href="#" class="text-white pb-3">Beranda</a>
           </div>
           <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
             <a href="#" class="text-white pb-3">Profile</a>
+          </div>
+          <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
+            <a href="#" class="text-white pb-3">Armada</a>
+          </div>
+          <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
+            <a href="#" class="text-white pb-3">Galeri</a>
+          </div>
+          <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
+            <a href="#" class="text-white pb-3">Harga</a>
           </div>
           <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
             <a href="#" class="text-white pb-3">Kontak</a>

@@ -90,17 +90,17 @@
 
 <section class="d-flex justify-content-center justify-content-lg-between section">
   <div class="container-fluid text-md-start">
-    <div class="d-flex justify-content-center py-5">
-      <div class="row ribbon mb-4">
-        <div class="col-md-3 col-lg-7 col-xl-3">
+    <div class="ribbon mx-auto mb-5">
+      <div class="d-lg-flex d-sm-block justify-content-between">
+        <div class="">
           <img src="{{ URL('images/img4.png') }}" alt="img" class="img-ribbon">
         </div>
-        <div class="col-md-3 col-lg-7 col-xl-3 text-white text-ribbon">
-          <h1 class="fw-bold">Anda Tertarik?</h1>
+        <div class="text-white text-ribbon">
+          <h3 class="fw-bold">Anda Tertarik?</h3>
           <p class="">Silahkan hubungi kami dan download e-brochure untuk informasi lebih lanjut.</p>
         </div>
-        <div class="col-md-3 col-lg-7 col-xl-6 btn-ribbon">
-          <button type="button" class="btn-kontak text-white">KONTAK</button>
+        <div class="btn-ribbon d-lg-flex gap-lg-4">
+          <button type="button" class="btn-kontak text-white">Kontak</button>
           <button type="button" class="btn-download text-white">Download Brosur</button>
         </div>
       </div>
@@ -174,10 +174,19 @@
             Menu Utama
           </h6>
           <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
-            <a href="#" class="text-white pb-3">Home</a>
+            <a href="#" class="text-white pb-3">Beranda</a>
           </div>
           <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
             <a href="#" class="text-white pb-3">Profile</a>
+          </div>
+          <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
+            <a href="#" class="text-white pb-3">Armada</a>
+          </div>
+          <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
+            <a href="#" class="text-white pb-3">Galeri</a>
+          </div>
+          <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
+            <a href="#" class="text-white pb-3">Harga</a>
           </div>
           <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
             <a href="#" class="text-white pb-3">Kontak</a>
