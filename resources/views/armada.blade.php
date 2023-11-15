@@ -17,23 +17,36 @@
               </a>
             </div>
             <div class="col-sm-5 col-md-5 col-lg-4 col-xl-5">
+                <a href="/Modal/busPutih" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
                 <img src="{{ URL('images/armada/img2.png') }}" alt="img" class="armada-img">
+              </a>
+                
+
             </div>
         </div>
         <div class="row d-flex justify-content-center mb-5">
             <div class="col-sm-5 col-md-5 col-lg-4 col-xl-5">
+                <a href="/Modal/busPutih" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
                 <img src="{{ URL('images/armada/img3.png') }}" alt="img" class="armada-img">
+                </A>
             </div>
             <div class="col-sm-5 col-md-5 col-lg-4 col-xl-5">
-                <img src="{{ URL('images/armada/img4.png') }}" alt="img" class="armada-img">
+                <a href="/Modal/busPutih" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
+                <img src="{{ URL('images/armada/img4.png') }}" alt="img" 
+                class="armada-img">
+                </A>
             </div>
         </div>
         <div class="row d-flex justify-content-center mb-5">
             <div class="col-sm-5 col-md-5 col-lg-4 col-xl-5">
+                <a href="/Modal/busPutih" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop5">
                 <img src="{{ URL('images/armada/img5.png') }}" alt="img" class="armada-img">
+                </A>
             </div>
             <div class="col-sm-5 col-md-5 col-lg-4 col-xl-5">
-                <img src="{{ URL('images/armada/img1.png') }}" alt="img" class="armada-img">
+                <a href="/Modal/busPutih" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop6">
+                <img src="{{ URL('images/busYellow.jpg') }}" alt="img" class="armada-img">
+                </A>
             </div>
         </div>
     </div>
@@ -64,7 +77,694 @@ bangkee
 </button>  -->
 
 <!-- Modal -->
- 
+ <div class="container" style="margin-top:10rem;">
+
+<!-- Bis 1 -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="z-index:1000000;">
+    <div class="modal-dialog ">
+        <div class="modal-content bus1 ">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">             <img src="{{ URL('images/Logo1.png') }}" alt="Logo">
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <div class="row">
+                  <div class="col-6 gambar">
+                  <img src="{{ URL('images/armada/img1.png') }}" class="img-fluid" alt="Responsive image">
+                  </div>
+                  <div class="col-6">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="container kalimatModal">
+                          <h1>NARADATRANS <span style="font-weight: bolder;">PARIWISATA</span> BIRU-PUTIH</h1>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row pesanModal">
+                    <a href="https://wa.me/089501300359"><div class="col-12">Pesan Sekarang</div></a>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+
+                          <div class="row mt-3">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>TEMPAT DUDUK</p>
+                              <p class = "keterangan">31</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>Bahan Bakar</p>
+                              <p class ="keterangan">DIESEL</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>WIFI & YOUTUBE</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>SELIMUT & BANTAL</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-6">
+                        <div class="row mt-3">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>BAGASI</p>
+                              <p class ="keterangan">5</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>AC DINGIN</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>KARAOKE</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>PENGEMUDI</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- end Bis 2 -->
+
+<!-- Bis 2 -->
+  <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="z-index:1000000;">
+    <div class="modal-dialog ">
+        <div class="modal-content bus1 ">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">             <img src="{{ URL('images/Logo1.png') }}" alt="Logo">
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <div class="row">
+                  <div class="col-6 gambar">
+                  <img src="{{ URL('images/armada/img2.png') }}" class="img-fluid" alt="Responsive image">
+                  </div>
+                  <div class="col-6">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="container kalimatModal">
+                          <h1>NARADATRANS <span style="font-weight: bolder;">MUHAASABAH VOYAGER</span> HIJAU</h1>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row pesanModal">
+                    <a href="https://wa.me/089501300359"><div class="col-12">Pesan Sekarang</div></a>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+
+                          <div class="row mt-3">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>TEMPAT DUDUK</p>
+                              <p class ="keterangan">31</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>Bahan Bakar</p>
+                              <p class ="keterangan">DIESEL</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>WIFI & YOUTUBE</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>SELIMUT & BANTAL</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-6">
+                        <div class="row mt-3">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>BAGASI</p>
+                              <p class ="keterangan">5</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>AC DINGIN</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>KARAOKE</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>PENGEMUDI</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- end bis 2 -->
+
+<!-- BIS 3 -->
+<div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="z-index:1000000;">
+    <div class="modal-dialog ">
+        <div class="modal-content bus1 ">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">             <img src="{{ URL('images/Logo1.png') }}" alt="Logo">
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <div class="row">
+                  <div class="col-6 gambar">
+                  <img src="{{ URL('images/armada/img3.png') }}" class="img-fluid" alt="Responsive image">
+                  </div>
+                  <div class="col-6">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="container kalimatModal">
+                          <h1>NARADATRANS <span style="font-weight: bolder;">PARIWISATA</span> BIRU</h1>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row pesanModal">
+                    <a href="https://wa.me/089501300359"><div class="col-12">Pesan Sekarang</div></a>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+
+                          <div class="row mt-3">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>TEMPAT DUDUK</p>
+                              <p class ="keterangan">31</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>Bahan Bakar</p>
+                              <p class ="keterangan">DIESEL</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>WIFI & YOUTUBE</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>SELIMUT & BANTAL</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-6">
+                        <div class="row mt-3">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>BAGASI</p>
+                              <p class ="keterangan">5</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>AC DINGIN</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>KARAOKE</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>PENGEMUDI</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- END BIS 3 -->
+
+<!-- BIS 34-->
+<div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="z-index:1000000;">
+    <div class="modal-dialog ">
+        <div class="modal-content bus1 ">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">             <img src="{{ URL('images/Logo1.png') }}" alt="Logo">
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <div class="row">
+                  <div class="col-6 gambar">
+                  <img src="{{ URL('images/armada/img4.png') }}" class="img-fluid" alt="Responsive image">
+                  </div>
+                  <div class="col-6">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="container kalimatModal">
+                          <h1>NARADATRANS <span style="font-weight: bolder;">PARIWISATA</span> BIRU</h1>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row pesanModal">
+                    <a href="https://wa.me/089501300359"><div class="col-12">Pesan Sekarang</div></a>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+
+                          <div class="row mt-3">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>TEMPAT DUDUK</p>
+                              <p class ="keterangan">31</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>Bahan Bakar</p>
+                              <p class ="keterangan">DIESEL</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>WIFI & YOUTUBE</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>SELIMUT & BANTAL</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-6">
+                        <div class="row mt-3">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>BAGASI</p>
+                              <p class ="keterangan">5</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>AC DINGIN</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>KARAOKE</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>PENGEMUDI</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- END BIS 4 -->
+
+
+<!-- BIS 5 -->
+<div class="modal fade" id="staticBackdrop5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="z-index:1000000;">
+    <div class="modal-dialog ">
+        <div class="modal-content bus1 ">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">             <img src="{{ URL('images/Logo1.png') }}" alt="Logo">
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <div class="row">
+                  <div class="col-6 gambar">
+                  <img src="{{ URL('images/armada/img5.png') }}" class="img-fluid" alt="Responsive image">
+                  </div>
+                  <div class="col-6">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="container kalimatModal">
+                          <h1>NARADATRANS <span style="font-weight: bolder;">MUHAASABAH</span> BIRU-ABU</h1>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row pesanModal">
+                    <a href="https://wa.me/089501300359"><div class="col-12">Pesan Sekarang</div></a>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+
+                          <div class="row mt-3">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>TEMPAT DUDUK</p>
+                              <p class ="keterangan">31</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>Bahan Bakar</p>
+                              <p class ="keterangan">DIESEL</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>WIFI & YOUTUBE</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>SELIMUT & BANTAL</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-6">
+                        <div class="row mt-3">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>BAGASI</p>
+                              <p class ="keterangan">5</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>AC DINGIN</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>KARAOKE</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>PENGEMUDI</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- END BIS 5 -->
+
+<!-- BIS 6 -->
+
+<div class="modal fade" id="staticBackdrop6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="z-index:1000000;">
+    <div class="modal-dialog ">
+        <div class="modal-content bus1 ">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">             <img src="{{ URL('images/Logo1.png') }}" alt="Logo">
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <div class="row">
+                  <div class="col-6 gambar">
+                  <img src="{{ URL('images/busYellow.jpg') }}" class="img-fluid" alt="Responsive image">
+                  </div>
+                  <div class="col-6">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="container kalimatModal">
+                          <h1>NARADATRANS <span style="font-weight: bolder;">MUSTANG</span> KUNING</h1>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row pesanModal">
+                    <a href="https://wa.me/089501300359"><div class="col-12">Pesan Sekarang</div></a>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+
+                          <div class="row mt-3">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>TEMPAT DUDUK</p>
+                              <p class ="keterangan">31</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>Bahan Bakar</p>
+                              <p class ="keterangan">DIESEL</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>WIFI & YOUTUBE</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>SELIMUT & BANTAL</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-6">
+                        <div class="row mt-3">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>BAGASI</p>
+                              <p class ="keterangan">5</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>AC DINGIN</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>KARAOKE</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-9">
+                              <p>PENGEMUDI</p>
+                              <p class ="keterangan">YA</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- END BIS 6 -->
+</div>
 <!-- <div class="">
   ...
 </div> -->
