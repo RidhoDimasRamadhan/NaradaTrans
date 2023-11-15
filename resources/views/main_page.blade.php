@@ -106,7 +106,7 @@
           <!-- <a href="/Modal/busPutih" class="busPutih"  type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             <h1>apa yaklkk</h1>
             </a>  -->
-      <div class="carousel">
+      <div class="carousel mb-5">
       <!-- <a href="https://www.google.com/"><h1>hoogle</h1></a> -->
         <img src="{{ URL('images/busPutih.png') }}" alt="img" draggable="false">
         <img src="{{ URL('images/busYellow.jpg') }}" alt="img" draggable="false">
@@ -123,20 +123,18 @@
 
 <section class="d-flex justify-content-center justify-content-lg-between section">
   <div class="container-fluid text-md-start">
-    <div class="d-flex justify-content-center py-5">
-      <div class="row ribbon mb-4">
-        <div class="col-md-3 col-lg-7 col-xl-3">
+    <div class="ribbon d-lg-flex d-sm-block justify-content-between mb-5 mx-auto">
+        <div class="">
           <img src="{{ URL('images/img4.png') }}" alt="img" class="img-ribbon">
         </div>
-        <div class="col-md-3 col-lg-7 col-xl-3 text-white text-ribbon">
-          <h1 class="fw-bold">Anda Tertarik?</h1>
+        <div class="text-white text-ribbon">
+          <h3 class="fw-bold">Anda Tertarik?</h3>
           <p class="">Silahkan hubungi kami dan download e-brochure untuk informasi lebih lanjut.</p>
         </div>
-        <div class="col-md-3 col-lg-7 col-xl-6 btn-ribbon">
+        <div class="btn-ribbon d-flex">
           <button type="button" class="btn-kontak text-white">KONTAK</button>
           <button type="button" class="btn-download text-white">Download Brosur</button>
         </div>
-      </div>
     </div>
   </div>
 </section>

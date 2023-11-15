@@ -11,28 +11,28 @@
             <h1 class="mx-auto">PILIHAN <span class="text-brown">ARMADA</span> UNTUK ANDA</h1>
         </div>
         <div class="row d-flex justify-content-center mb-5">
-            <div class="col-md-1 col-lg-2 col-xl-5">
+            <div class="col-sm-5 col-md-5 col-lg-4 col-xl-5">
               <a href="/Modal/busPutih" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                 <img src="{{ URL('images/armada/img1.png') }}" alt="img" class="armada-img">
               </a>
             </div>
-            <div class="col-md-1 col-lg-2 col-xl-5">
+            <div class="col-sm-5 col-md-5 col-lg-4 col-xl-5">
                 <img src="{{ URL('images/armada/img2.png') }}" alt="img" class="armada-img">
             </div>
         </div>
         <div class="row d-flex justify-content-center mb-5">
-            <div class="col-md-1 col-lg-2 col-xl-5">
+            <div class="col-sm-5 col-md-5 col-lg-4 col-xl-5">
                 <img src="{{ URL('images/armada/img3.png') }}" alt="img" class="armada-img">
             </div>
-            <div class="col-md-1 col-lg-2 col-xl-5">
+            <div class="col-sm-5 col-md-5 col-lg-4 col-xl-5">
                 <img src="{{ URL('images/armada/img4.png') }}" alt="img" class="armada-img">
             </div>
         </div>
         <div class="row d-flex justify-content-center mb-5">
-            <div class="col-md-1 col-lg-2 col-xl-5">
+            <div class="col-sm-5 col-md-5 col-lg-4 col-xl-5">
                 <img src="{{ URL('images/armada/img5.png') }}" alt="img" class="armada-img">
             </div>
-            <div class="col-md-1 col-lg-2 col-xl-5">
+            <div class="col-sm-5 col-md-5 col-lg-4 col-xl-5">
                 <img src="{{ URL('images/armada/img1.png') }}" alt="img" class="armada-img">
             </div>
         </div>
@@ -41,12 +41,6 @@
 
 <section class="d-flex justify-content-center justify-content-lg-between section">
   <div class="container-fluid text-md-start">
-    <div class="d-flex justify-content-center py-4">
-      <div id="banner-img" class="banner">
-        <h1 class="fw-bold text-white mx-auto text-center pt-5 pb-3">Sewa BUS terpercaya <span class="naradaBanner">NaradaTrans</span> solusinya</h1>
-        <img src="{{ URL('images/play.png') }}" alt="play" class="d-block mx-auto">
-      </div>
-    </div>
     <div class="d-flex justify-content-center py-5">
       <div class="row ribbon mb-4">
         <div class="col-md-3 col-lg-7 col-xl-3">
