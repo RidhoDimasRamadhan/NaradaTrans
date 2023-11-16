@@ -1,7 +1,7 @@
 
 @extends('Template/base')
 <script src="https://kit.fontawesome.com/08692cf6f2.js" crossorigin="anonymous"></script>
-
+<a href="https://wa.me/+6285281595005" class="up-icon"><i class="fa-brands fa-whatsapp" style="color: #00e034;"></i></a>
 @section('content')
 <section class="d-flex justify-content-center justify-content-lg-between section" style="margin-top: 7rem;">
     <div class="container-fluid text-md-star section-kontak">
