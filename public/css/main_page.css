@@ -89,9 +89,9 @@ h6 {
   position: relative;
 }
 
-.mail {
+/* .mail {
   margin-left: 2rem
-}
+} */
 
 .socialIco {
   border-radius: 50%;
@@ -372,7 +372,7 @@ animation-duration: 3.5s;
 
   .kalimat {
     left: 2rem;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 20rem;
   }
 
@@ -441,12 +441,12 @@ animation-duration: 3.5s;
     /* left: -6rem; */
     top: 1rem;
     margin: 0 auto;
-    border: 3px solid white;
+    /* border: 3px solid white; */
 
   }
 
   .wordHomePage {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     /* border: 1px solid white; */
     /* width: 10rem; */
     top: .5rem;
