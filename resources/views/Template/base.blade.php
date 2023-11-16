@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/css/armada.css">
     <link rel="stylesheet" href="/css/galeri.css">
     <link rel="stylesheet" href="/css/harga.css">
+    <link rel="stylesheet" href="/css/kontak.css">
     <link rel="stylesheet" href="/css/baseTemplate/base.css">
     <script src="https://kit.fontawesome.com/08692cf6f2.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -158,13 +159,22 @@
             Menu Utama
           </h6>
           <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
-            <a href="#" class="text-white pb-3">Home</a>
+            <a href="/main_page" class="text-white pb-3">Beranda</a>
           </div>
           <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
-            <a href="#" class="text-white pb-3">Profil</a>
+            <a href="/profile" class="text-white pb-3">Profile</a>
           </div>
           <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
-            <a href="#" class="text-white pb-3">Kontak</a>
+            <a href="/armada" class="text-white pb-3">Armada</a>
+          </div>
+          <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
+            <a href="/galeri" class="text-white pb-3">Galeri</a>
+          </div>
+          <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
+            <a href="/harga" class="text-white pb-3">Harga</a>
+          </div>
+          <div class="d-flex justify-content-lg-between border-bottom mb-3 line">
+            <a href="/kontak" class="text-white pb-3">Kontak</a>
           </div>
           
         </div>

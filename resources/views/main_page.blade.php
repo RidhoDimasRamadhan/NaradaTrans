@@ -123,7 +123,8 @@
 
 <section class="d-flex justify-content-center justify-content-lg-between section">
   <div class="container-fluid text-md-start">
-    <div class="ribbon d-lg-flex d-sm-block justify-content-between mb-5 mx-auto">
+    <div class="ribbon mx-auto mb-5">
+      <div class="d-lg-flex d-sm-block justify-content-between">
         <div class="">
           <img src="{{ URL('images/img4.png') }}" alt="img" class="img-ribbon">
         </div>
@@ -131,10 +132,15 @@
           <h3 class="fw-bold">Anda Tertarik?</h3>
           <p class="">Silahkan hubungi kami dan download e-brochure untuk informasi lebih lanjut.</p>
         </div>
-        <div class="btn-ribbon d-flex">
-          <button type="button" class="btn-kontak text-white">KONTAK</button>
-          <button type="button" class="btn-download text-white">Download Brosur</button>
+        <div class="btn-ribbon d-lg-flex gap-lg-4">
+          <a href="https://wa.me/+6285281595005">
+            <button type="button" class="btn-kontak text-white">Kontak</button>
+          </a>
+          <a href="#">
+            <button type="button" class="btn-download text-white">Download Brosur</button>
+          </a>
         </div>
+      </div>
     </div>
   </div>
 </section>
@@ -189,6 +195,9 @@
          </div>
 </div> -->
 <!-- End Komen Perjalanan  -->
+
+
+<!-- Footer -->
 
 <!-- <script src="/js/main_page.js"></script> -->
 

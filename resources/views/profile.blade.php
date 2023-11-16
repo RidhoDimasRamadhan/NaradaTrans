@@ -3,7 +3,7 @@
 <script src="https://kit.fontawesome.com/08692cf6f2.js" crossorigin="anonymous"></script>
 
 @section('content')
-
+<a href="https://wa.me/089501300359" class="up-icon"><i class="fa-brands fa-whatsapp" style="color: #00e034;"></i></a>
 <section class="d-flex justify-content-center justify-content-lg-between section" style="margin-top: 7rem;">
     <div class="container-fluid text-md-start bg-Grey">
         <div class="d-lg-flex d-sm-block justify-content-lg-between">
@@ -15,7 +15,7 @@
                     <p>Seiring dengan berjalannya waktu, NaradaTrans telah banyak melayani perusahaan-perusahaan swasta lokal dan asing, BUMN, sekolah-sekolah swasta, negeri maupun internasional, yayasan-yayasan sosial, dan acara-acara keluarga seperti perkawinan dan mudik.</p>
                     <p>Komitmen NaradaTrans adalah memberikan layanan transportasi yang handal, nyaman, dan aman bagi setiap pelanggan kami. Dengan armada yang terjamin kualitasnya, kami siap memberikan pengalaman perjalanan yang memuaskan dan mengantarkan Anda dengan tepat waktu ke tujuan.</p>
                 </div> 
-            <div class="">
+            <div class="img-responsive text-center">
                 <img src="{{ URL('images/img1.png') }}" alt="img" class="img1">
             </div>
         </div>
@@ -25,7 +25,7 @@
 <section class="d-flex justify-content-center justify-content-lg-between" style="margin-bottom: 2rem;">
     <div class="container-fluid text-md-start">
         <div class="d-lg-flex d-sm-block justify-content-lg-between">
-            <div class="article-img">
+            <div class="article-img text-center">
                 <img src="{{ URL('images/img2.png') }}" alt="img" class="img2">
                 <img src="{{ URL('images/img3.png') }}" alt="img" class="img3">
             </div>  
@@ -40,23 +40,22 @@
 
 <section class="d-flex justify-content-center justify-content-lg-between section">
   <div class="container-fluid text-md-start">
-    <div class="d-flex justify-content-center py-5">
-      <div class="row ribbon mb-4">
-        <div class="col-md-3 col-lg-7 col-xl-3">
+    <div class="ribbon mx-auto mb-5">
+      <div class="d-lg-flex d-sm-block justify-content-between">
+        <div class="">
           <img src="{{ URL('images/img4.png') }}" alt="img" class="img-ribbon">
         </div>
-        <div class="col-md-3 col-lg-7 col-xl-3 text-white text-ribbon">
-          <h1 class="fw-bold">Anda Tertarik?</h1>
+        <div class="text-white text-ribbon">
+          <h3 class="fw-bold">Anda Tertarik?</h3>
           <p class="">Silahkan hubungi kami dan download e-brochure untuk informasi lebih lanjut.</p>
         </div>
-        <div class="col-md-3 col-lg-7 col-xl-6 btn-ribbon">
-          <button type="button" class="btn-kontak text-white">KONTAK</button>
+        <div class="btn-ribbon d-lg-flex gap-lg-4">
+          <button type="button" class="btn-kontak text-white">Kontak</button>
           <button type="button" class="btn-download text-white">Download Brosur</button>
         </div>
       </div>
     </div>
   </div>
 </section>
-
 
 @endsection
