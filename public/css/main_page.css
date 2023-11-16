@@ -139,7 +139,6 @@ h6 {
   font-weight: 500;
   position: relative;
   left: -4rem;
-  left: -4rem;
   font-family: 'Inter', sans-serif;
 }
 
@@ -352,7 +351,7 @@ animation-duration: 3.5s;
   font-weight: bold;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 576px) {
 
   /* .up-icon {
     z-index: 99999;
@@ -372,7 +371,6 @@ animation-duration: 3.5s;
 
   .kalimat {
     left: 2rem;
-    border: 1px solid white;
     width: 20rem;
   }
 
@@ -399,7 +397,7 @@ animation-duration: 3.5s;
     /* border: 1px solid white; */
     margin: 0 auto;
     position: relative;
-    left: 4rem;
+    left: 4.8rem;
   }
 
   .pesan {
@@ -441,12 +439,10 @@ animation-duration: 3.5s;
     /* left: -6rem; */
     top: 1rem;
     margin: 0 auto;
-    border: 3px solid white;
 
   }
 
   .wordHomePage {
-    border: 1px solid white;
     /* border: 1px solid white; */
     /* width: 10rem; */
     top: .5rem;
