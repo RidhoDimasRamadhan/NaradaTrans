@@ -331,7 +331,7 @@ animation-duration: 3.5s;
 
 .btn-ribbon {
   position: relative;
-  top:0;
+  top: 0;
   padding-top: 4.3rem;
   padding-bottom: 4.3rem;
 }
@@ -354,11 +354,26 @@ animation-duration: 3.5s;
 
 @media only screen and (max-width: 500px) {
 
+  /* .up-icon {
+    z-index: 99999;
+    position: fixed;
+    width: 50px;
+    right: 0px;
+    margin-top: 6rem;
+  } */
+
+
   /* For tablets: */
   .navbar-brand {
     left: -3rem;
     top: 0;
     position: relative;
+  }
+
+  .kalimat {
+    left: 2rem;
+    border: 1px solid white;
+    width: 20rem;
   }
 
   .navbar-toggler {
@@ -384,7 +399,7 @@ animation-duration: 3.5s;
     /* border: 1px solid white; */
     margin: 0 auto;
     position: relative;
-    left: .2rem;
+    left: 4rem;
   }
 
   .pesan {
@@ -395,7 +410,7 @@ animation-duration: 3.5s;
   }
 
   .deliver {
-    left: 0rem;
+    left: 5rem;
     margin: 0 auto;
   }
 
@@ -425,10 +440,13 @@ animation-duration: 3.5s;
     position: relative;
     /* left: -6rem; */
     top: 1rem;
+    margin: 0 auto;
+    border: 3px solid white;
 
   }
 
   .wordHomePage {
+    border: 1px solid white;
     /* border: 1px solid white; */
     /* width: 10rem; */
     top: .5rem;
@@ -437,7 +455,7 @@ animation-duration: 3.5s;
     /* margin-right: 3rem; */
     /* border: 1px solid red; */
     position: relative;
-    margin-left: 4rem;
+    margin-left: 9rem;
     margin-bottom: 1rem;
     width: 100%;
     /* right: 2rem; */
@@ -603,17 +621,17 @@ animation-duration: 3.5s;
   }
 
   .btn-ribbon {
-    width:100%;
+    width: 100%;
     padding-top: 0rem;
-    display:block;
+    display: block;
     position: relative;
-    left:0;
+    left: 0;
   }
 
   .btn-kontak {
     margin-bottom: 10px;
     border: none;
-    width:100%;
+    width: 100%;
     background-color: #EEA953;
     border-radius: 50px;
     padding: .5rem 0;
@@ -621,7 +639,7 @@ animation-duration: 3.5s;
   }
 
   .btn-download {
-    width:100%;
+    width: 100%;
     border: 1px solid white;
     background-color: transparent;
     border-radius: 50px;
@@ -630,6 +648,7 @@ animation-duration: 3.5s;
     margin-right: 20px;
   }
 }
+
 @media only screen and (max-width: 768px) {
   .ribbon {
     height: 440px;
@@ -650,14 +669,14 @@ animation-duration: 3.5s;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
   }
-  
+
   .text-ribbon h3 {
     margin: auto;
     text-align: center;
     font-size: 33px;
     padding-left: 0;
   }
-  
+
   .text-ribbon p {
     text-align: center;
     margin: auto;
@@ -665,27 +684,27 @@ animation-duration: 3.5s;
     width: 46.5%;
     padding-left: 0;
   }
-  
+
   .btn-ribbon {
-    width:100%;
+    width: 100%;
     padding-top: 0rem;
-    display:block;
+    display: block;
     position: relative;
-    left:0;
+    left: 0;
   }
-  
+
   .btn-kontak {
     margin-bottom: 10px;
     border: none;
-    width:100%;
+    width: 100%;
     background-color: #EEA953;
     border-radius: 50px;
     padding: .5rem 0;
     font-weight: bold;
   }
-  
+
   .btn-download {
-    width:100%;
+    width: 100%;
     border: 1px solid white;
     background-color: transparent;
     border-radius: 50px;
@@ -694,6 +713,7 @@ animation-duration: 3.5s;
     margin-right: 20px;
   }
 }
+
 @media screen and (max-width: 992px) {
   .ribbon {
     height: 81%;
@@ -731,15 +751,15 @@ animation-duration: 3.5s;
   }
 
   .btn-ribbon {
-    width:100%;
+    width: 100%;
     padding-top: 4rem;
-    display:block;
+    display: block;
   }
 
   .btn-kontak {
     margin-bottom: 0;
     border: none;
-    width:100%;
+    width: 100%;
     background-color: #EEA953;
     border-radius: 50px;
     padding: .5rem 0;
@@ -747,7 +767,7 @@ animation-duration: 3.5s;
   }
 
   .btn-download {
-    width:100%;
+    width: 100%;
     border: 1px solid white;
     background-color: transparent;
     border-radius: 50px;

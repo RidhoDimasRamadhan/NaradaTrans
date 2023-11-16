@@ -29,9 +29,9 @@
                         </div>
             </div>
 
-        <div class ="col-xl-4 rounded-lg">
-            <div class="row mb-3"></div>
-        </div>
+            <div class ="col-xl-4 rounded-lg">
+                <div class="row mb-3"></div>
+            </div>
       </div>
 
         <div class="mySlides">
