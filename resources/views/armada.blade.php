@@ -110,7 +110,7 @@ bangkee
 
                           <div class="row mt-3">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Kursi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>TEMPAT DUDUK</p>
@@ -119,7 +119,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Diesel.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>Bahan Bakar</p>
@@ -128,7 +128,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Wifi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>WIFI & YOUTUBE</p>
@@ -137,7 +137,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/SelimutBantal.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>SELIMUT & BANTAL</p>
@@ -149,7 +149,7 @@ bangkee
                         <div class="col-6">
                         <div class="row mt-3">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Bagasi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>BAGASI</p>
@@ -158,7 +158,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/AcDingin.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>AC DINGIN</p>
@@ -167,7 +167,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Karaoke.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>KARAOKE</p>
@@ -176,7 +176,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Pengemudi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>PENGEMUDI</p>
@@ -224,7 +224,7 @@ bangkee
 
                           <div class="row mt-3">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Kursi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>TEMPAT DUDUK</p>
@@ -233,7 +233,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Diesel.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>Bahan Bakar</p>
@@ -242,7 +242,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Wifi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>WIFI & YOUTUBE</p>
@@ -251,7 +251,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/SelimutBantal.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>SELIMUT & BANTAL</p>
@@ -263,7 +263,7 @@ bangkee
                         <div class="col-6">
                         <div class="row mt-3">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Bagasi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>BAGASI</p>
@@ -272,7 +272,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/AcDingin.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>AC DINGIN</p>
@@ -281,7 +281,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Karaoke.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>KARAOKE</p>
@@ -290,7 +290,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Pengemudi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>PENGEMUDI</p>
@@ -338,7 +338,7 @@ bangkee
 
                           <div class="row mt-3">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Kursi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>TEMPAT DUDUK</p>
@@ -347,7 +347,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Diesel.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>Bahan Bakar</p>
@@ -356,7 +356,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Wifi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>WIFI & YOUTUBE</p>
@@ -365,7 +365,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/SelimutBantal.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>SELIMUT & BANTAL</p>
@@ -377,7 +377,7 @@ bangkee
                         <div class="col-6">
                         <div class="row mt-3">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Bagasi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>BAGASI</p>
@@ -386,7 +386,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/AcDingin.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>AC DINGIN</p>
@@ -395,7 +395,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Karaoke.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>KARAOKE</p>
@@ -404,7 +404,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Pengemudi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>PENGEMUDI</p>
@@ -452,7 +452,7 @@ bangkee
 
                           <div class="row mt-3">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Kursi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>TEMPAT DUDUK</p>
@@ -461,7 +461,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Diesel.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>Bahan Bakar</p>
@@ -470,7 +470,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Wifi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>WIFI & YOUTUBE</p>
@@ -479,7 +479,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/SelimutBantal.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>SELIMUT & BANTAL</p>
@@ -491,7 +491,7 @@ bangkee
                         <div class="col-6">
                         <div class="row mt-3">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Bagasi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>BAGASI</p>
@@ -500,7 +500,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/AcDingin.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>AC DINGIN</p>
@@ -509,7 +509,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Karaoke.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>KARAOKE</p>
@@ -518,7 +518,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Pengemudi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>PENGEMUDI</p>
@@ -567,7 +567,7 @@ bangkee
 
                           <div class="row mt-3">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Kursi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>TEMPAT DUDUK</p>
@@ -576,7 +576,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Diesel.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>Bahan Bakar</p>
@@ -585,7 +585,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Wifi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>WIFI & YOUTUBE</p>
@@ -594,7 +594,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/SelimutBantal.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>SELIMUT & BANTAL</p>
@@ -606,7 +606,7 @@ bangkee
                         <div class="col-6">
                         <div class="row mt-3">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Bagasi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>BAGASI</p>
@@ -615,7 +615,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/AcDingin.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>AC DINGIN</p>
@@ -624,7 +624,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Karaoke.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>KARAOKE</p>
@@ -633,7 +633,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Pengemudi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>PENGEMUDI</p>
@@ -682,7 +682,7 @@ bangkee
 
                           <div class="row mt-3">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Kursi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>TEMPAT DUDUK</p>
@@ -691,7 +691,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Diesel.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>Bahan Bakar</p>
@@ -700,7 +700,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Wifi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>WIFI & YOUTUBE</p>
@@ -709,7 +709,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/SelimutBantal.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>SELIMUT & BANTAL</p>
@@ -721,7 +721,7 @@ bangkee
                         <div class="col-6">
                         <div class="row mt-3">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Bagasi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>BAGASI</p>
@@ -730,7 +730,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/AcDingin.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>AC DINGIN</p>
@@ -739,7 +739,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Karaoke.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>KARAOKE</p>
@@ -748,7 +748,7 @@ bangkee
                           </div>
                           <div class="row">
                             <div class="col-3">
-                              <img src="{{ URL('images/fb.png') }}" class="img-fluid" alt="Responsive image">
+                              <img src="{{ URL('images/modal/Pengemudi.svg') }}" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-9">
                               <p>PENGEMUDI</p>
