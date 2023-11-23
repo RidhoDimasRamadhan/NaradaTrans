@@ -23,7 +23,7 @@
                                   </div>
                                 </div>
                                 <div class="pesan">
-                                  <p class ="deliver"><a href="https://wa.me/089501300359">Pesan Sekarang</a></p>
+                                  <p class ="deliver"><a href="https://wa.me/089501300359" target="_blank">Pesan Sekarang</a></p>
                                 </div>
                             </div>
                         </div>

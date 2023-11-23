@@ -102,7 +102,7 @@ bangkee
                       </div>
                     </div>
                     <div class="row pesanModal">
-                    <a href="https://wa.me/089501300359"><div class="col-12">Pesan Sekarang</div></a>
+                    <a href="https://wa.me/089501300359" target="_blank"><div class="col-12">Pesan Sekarang</div></a>
                         
                     </div>
                     <div class="row">
@@ -216,7 +216,7 @@ bangkee
                       </div>
                     </div>
                     <div class="row pesanModal">
-                    <a href="https://wa.me/089501300359"><div class="col-12">Pesan Sekarang</div></a>
+                    <a href="https://wa.me/089501300359" target="_blank"><div class="col-12">Pesan Sekarang</div></a>
                         
                     </div>
                     <div class="row">
@@ -330,7 +330,7 @@ bangkee
                       </div>
                     </div>
                     <div class="row pesanModal">
-                    <a href="https://wa.me/089501300359"><div class="col-12">Pesan Sekarang</div></a>
+                    <a href="https://wa.me/089501300359" target="_blank"><div class="col-12">Pesan Sekarang</div></a>
                         
                     </div>
                     <div class="row">
@@ -444,7 +444,7 @@ bangkee
                       </div>
                     </div>
                     <div class="row pesanModal">
-                    <a href="https://wa.me/089501300359"><div class="col-12">Pesan Sekarang</div></a>
+                    <a href="https://wa.me/089501300359" target="_blank"><div class="col-12">Pesan Sekarang</div></a>
                         
                     </div>
                     <div class="row">
@@ -559,7 +559,7 @@ bangkee
                       </div>
                     </div>
                     <div class="row pesanModal">
-                    <a href="https://wa.me/089501300359"><div class="col-12">Pesan Sekarang</div></a>
+                    <a href="https://wa.me/089501300359" target="_blank"><div class="col-12">Pesan Sekarang</div></a>
                         
                     </div>
                     <div class="row">
@@ -674,7 +674,7 @@ bangkee
                       </div>
                     </div>
                     <div class="row pesanModal">
-                    <a href="https://wa.me/089501300359"><div class="col-12">Pesan Sekarang</div></a>
+                    <a href="https://wa.me/089501300359" target="_blank"><div class="col-12">Pesan Sekarang</div></a>
                         
                     </div>
                     <div class="row">
