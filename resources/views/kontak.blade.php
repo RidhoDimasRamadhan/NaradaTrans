@@ -11,18 +11,18 @@
             <p>Punya pertanyaan terkait produk dan layanan NARADATRANS? Tim kami siap membantu Anda.</p>
         </div>
         <div class="d-xl-flex d-sm-block"> 
-            <form class="row g-3">
+            <form class="row g-3" action="https://formsubmit.co/your@email.com" method="POST">
                 <div class="col-xl-5 col-md-6 col-lg-6">
                     <label for="inputEmail4" class="form-label">Nama Lengkap <label class="star">*</label></label>
-                    <input type="text" class="form-control" id="inputEmail4" placeholder="Masukan Nama Lengkap">
+                    <input type="text" name="Fullname" class="form-control" id="inputEmail4" placeholder="Masukan Nama Lengkap" required>
                 </div>
                 <div class="col-xl-5 col-md-6 col-lg-6">
                     <label for="inputPassword4" class="form-label">Email <label class="star">*</label></label>
-                    <input type="text" class="form-control" id="inputPassword4" placeholder="Masukan email anda">
+                    <input type="text" class="form-control" name="Email" id="inputPassword4" placeholder="Masukan email anda" required>
                 </div>
                 <div class="col-xl-5 col-md-6 col-lg-6">
                     <label for="inputState" class="form-label">Kategori</label>
-                    <select id="inputState" class="form-select">
+                    <select id="inputState" class="form-select" name="Category">
                         <option selected>Pilih Kategori</option>
                         <option>...</option>
                     </select>
@@ -31,12 +31,12 @@
                     <label for="inputPassword4" class="form-label">No. Telepon <label class="star">*</label></label>
                     <div class="input-group">
                         <span class="input-group-text" id="basic-addon1">+62</span>
-                        <input type="text" class="form-control" id="inputPassword4" placeholder="Masukan nomor telepon" aria-label="Username" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" name="Phone" id="inputPassword4" placeholder="Masukan nomor telepon" aria-label="Username" aria-describedby="basic-addon1" required>
                     </div>
                 </div>
                 <div class="col-xl-10 col-md-6 col-lg-6">
                     <label for="inputPassword4" class="form-label">Pesan <label class="star">*</label></label>
-                    <textarea class="form-control" aria-label="With textarea" placeholder="Masukan Nama Lengkap"></textarea>
+                    <textarea class="form-control" name="Message" aria-label="With textarea" placeholder="Masukan Nama Lengkap"></textarea>
                 </div>
                 <div class="col-10 bot-content mb-5">
                     <h4 class="text-brown">* Wajib diisi</h4>
