@@ -89,9 +89,9 @@ h6 {
   position: relative;
 }
 
-/* .mail {
+.mail {
   margin-left: 2rem
-} */
+}
 
 .socialIco {
   border-radius: 50%;
@@ -204,7 +204,7 @@ h6 {
 
 /* Slideshow container */
 .slideshow-container {
-  z-index: -1;
+  z-index: 111;
   max-width: 100%;
   position: relative;
   margin: auto;

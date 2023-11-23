@@ -3,6 +3,10 @@ h1 {
     text-align: center;
 }
 
+img.img-fluid {
+    height: 2rem;
+}
+
 .armada-headline h3 {
     font-size: 1.6rem;
     font-weight: 500;
@@ -130,6 +134,7 @@ h1 {
     }
 
 }
+
 @media only screen and (min-width: 300px) {
     .bus1 {
         width: 400px;
@@ -150,6 +155,7 @@ h1 {
     }
 
 }
+
 @media only screen and (min-width: 500PX) {
     .bus1 {
         width: 700px;
@@ -165,4 +171,3 @@ h1 {
         font-size: .7rem;
     }
 }
-

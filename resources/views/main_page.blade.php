@@ -7,7 +7,7 @@
 <div id="navbar">
 </div>
 
-<a href="https://wa.me/+6285281595005" class="up-icon"><i class="fa-brands fa-whatsapp" style="color: #00e034;"></i></a>
+<a href="https://wa.me/+6285281595005" class="up-icon" target="_blank"><i class="fa-brands fa-whatsapp" style="color: #00e034;"></i></a>
 <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
 
 <!-- Home Page -->
@@ -23,7 +23,7 @@
                                   </div>
                                 </div>
                                 <div class="pesan">
-                                  <p class ="deliver"><a href="https://wa.me/+6285281595005">Pesan Sekarang</a></p>
+                                  <p class ="deliver"><a href="https://wa.me/+6285281595005" target="_blank">Pesan Sekarang</a></p>
                                 </div>
                             </div>
                         </div>
@@ -41,14 +41,14 @@
         <div class="mySlides">
           <img src="{{ URL('images/BannerUtama.png') }}" style="width:100%">
         </div>
-        <a class="prev" onclick="plusSlides(-1)"><</a>
+        <a class="prev" onclick="plusSlides(-1 )"><</a>
         <a class="next" onclick="plusSlides(1)">></a>
 </div>
-
-      <!-- <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span> 
-        <span class="dot" onclick="currentSlide(2)"></span> 
-        <span class="dot" onclick="currentSlide(3)"></span> 
+<!-- 
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)">Halaman 1</span> 
+        <span class="dot" onclick="currentSlide(2)">Halaman 2</span> 
+        <span class="dot" onclick="currentSlide(3)">Halaman 3</span> 
       </div> -->
 <!-- end Komen Honm Page -->
 
@@ -202,24 +202,7 @@
 <!-- <script src="/js/main_page.js"></script> -->
 
 <script>
-// let mybutton = document.getElementById("myBtn");
-
-// // When the user scrolls down 20px from the top of the document, show the button
-// window.onscroll = function() {scrollFunction()};
-
-// function scrollFunction() {
-//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//     mybutton.style.display = "block";
-//   } else {
-//     mybutton.style.display = "none";
-//   }
-// }
-
-// // When the user clicks on the button, scroll to the top of the document
-// function topFunction() {
-//   document.body.scrollTop = 0;
-//   document.documentElement.scrollTop = 0;
-// }
+  
 // Caraousel
 const carousel = document.querySelector(".carousel"),
 firstImg = carousel.querySelectorAll("img")[0],
@@ -338,7 +321,9 @@ showSlides(slideIndex);
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
@@ -354,13 +339,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
-// $("a").click(function (e) {
-//     e.preventDefault();
-//     var href = $(this).attr("href");
-//     window.open(href);
-//     return false;
-// });
-
+// end HomePage
 
 </script>
 

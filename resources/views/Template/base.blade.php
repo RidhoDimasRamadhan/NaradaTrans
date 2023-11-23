@@ -54,17 +54,17 @@
                     <div class="d-flex gap-4 mt-2 ms-3">
                       <div>
                         <a href="#">
-                          <img src="{{ URL('images/twtNavbar.png') }}" alt="twitter" class="navbarIco">
+                          <img src="{{ URL('images/twitter.svg') }}" alt="twitter" class="navbarIco">
                         </a>
                       </div>
                       <div>
                         <a href="#">
-                          <img src="{{ URL('images/fbNavbar.png') }}" alt="Facebook" class="">
+                          <img src="{{ URL('images/fb.svg') }}" alt="Facebook" class="">
                         </a>
                       </div>
                       <div>
                         <a href="#">
-                          <img src="{{ URL('images/igNavbar.png') }}" alt="Instagram" class="navbarIco">        
+                          <img src="{{ URL('images/ig.svg') }}" alt="Instagram" class="navbarIco">        
                         </a>
                       </div>
                     </div>
