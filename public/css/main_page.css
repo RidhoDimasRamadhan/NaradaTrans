@@ -205,7 +205,7 @@ h6 {
 
 /* Slideshow container */
 .slideshow-container {
-  z-index: -1;
+  z-index: 111;
   max-width: 100%;
   position: relative;
   margin: auto;
