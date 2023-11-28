@@ -1,7 +1,7 @@
 
 @extends('Template/base')
 <script src="https://kit.fontawesome.com/08692cf6f2.js" crossorigin="anonymous"></script>
-
+<a href="https://wa.me/+6285281595005" class="up-icon"><i class="fa-brands fa-whatsapp" style="color: #00e034;"></i></a>
 @section('content')
 <section class="d-flex justify-content-center justify-content-lg-between section" style="margin-top: 7rem;">
     <div class="container-fluid text-md-start">
@@ -50,8 +50,12 @@
           <p class="">Silahkan hubungi kami dan download e-brochure untuk informasi lebih lanjut.</p>
         </div>
         <div class="btn-ribbon d-lg-flex gap-lg-4">
-          <button type="button" class="btn-kontak text-white">Kontak</button>
-          <button type="button" class="btn-download text-white">Download Brosur</button>
+          <a href="https://wa.me/+6285281595005">
+            <button type="button" class="btn-kontak text-white">Kontak</button>
+          </a>
+          <a href="#">
+            <button type="button" class="btn-download text-white">Download Brosur</button>
+          </a>
         </div>
       </div>
     </div>

@@ -7,7 +7,7 @@
 <div id="navbar">
 </div>
 
-<a href="https://wa.me/089501300359" class="up-icon" target="_blank"><i class="fa-brands fa-whatsapp" style="color: #00e034;"></i></a>
+<a href="https://wa.me/+6285281595005" class="up-icon" target="_blank"><i class="fa-brands fa-whatsapp" style="color: #00e034;"></i></a>
 <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
 
 <!-- Home Page -->
@@ -23,7 +23,7 @@
                                   </div>
                                 </div>
                                 <div class="pesan">
-                                  <p class ="deliver"><a href="https://wa.me/089501300359" target="_blank">Pesan Sekarang</a></p>
+                                  <p class ="deliver"><a href="https://wa.me/+6285281595005" target="_blank">Pesan Sekarang</a></p>
                                 </div>
                             </div>
                         </div>

@@ -121,14 +121,14 @@
             <div class="d-inline-block mail">
               <p class="text-white">
                 <img src="{{ URL('images/mailIco.png') }}" alt="" class="bg-light ico">
-                naradatrans@gmail.com
+                naradatrans.business@gmail.com
               </p>
             </div>
 
             <div class="">
               <p class="text-white">
                 <img src="{{ URL('images/webIco.png') }}" alt="" class="bg-light ico">
-                naradatrans.co.id
+                naradatrans.com
               </p>
             </div>
           </div>

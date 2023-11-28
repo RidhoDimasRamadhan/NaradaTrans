@@ -63,9 +63,6 @@ body{
   background: #0072bc!important;
 }
 
-.section {
-    margin-top: 1em;
-}
 
 .article-left {
     padding-top: 2rem;
@@ -95,11 +92,12 @@ body{
     color: #AB3C16;
 }
 
-.img-responsive .img1 {
-    width: 100%;
-    height: 789px;
+.img-profile {
+    float: right;
     position: relative;
     left:12px;
+    width: 100% auto;
+    height: 789px;
 }
 
 .article-img {
@@ -108,14 +106,14 @@ body{
 }
 
 .img2, .img3 {
-    height: 459px;
+  width: 100% auto;
+    height: 28.6rem;
 }
 
 .article-right {
     position: relative;
     padding-top: 10rem;
     padding-left: 3rem;
-
 }
 
 .article-right h3 {
@@ -131,7 +129,7 @@ body{
 }
 
 .article-right p {
-    width: 90%;
+    width: 100%;
     font-weight: 300;
     font-size: 20px;
     line-height: 24px;
@@ -140,32 +138,28 @@ body{
 
 @media only screen and (max-width: 576px) {
 
-  .img-responsive {
-    display:block;
-    margin: auto;
-  }
-
-  .img-responsive .img1 {
-    width: 400px;
-    height: 450px;
+  .img-profile {
+    left: 0;
+    float: none;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
   }
 
   .img2, .img3 {
-    width: 400px;
-    height: 350px;
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
   }
 
   .article-left {
-    width: 95%;
-    padding-top: 2rem;
-    padding-left: 2rem;
+    width: 100%;
+    padding-left: 0;
   }
 
   .article-img {
-    display: block;
-    position: relative;
+    margin-bottom: 1rem;
     right: 0;
-    margin-top: 30px;
   }
 
   .article-left h3 {
@@ -181,8 +175,8 @@ body{
 }
 
 .article-right {
-  padding-top: 2rem;
-  padding-left: 2rem;
+  padding-top: 0;
+  padding-left: 0;
 
 }
 
@@ -215,28 +209,28 @@ body{
 
 @media only screen and (max-width: 768px) {
 
-  .img-responsive .img1 {
-    width: 400px;
-    height: 450px;
+  .img-profile {
+    width: 100%;
+    height: auto;
+    float: none;
+    left: 0;
+    object-fit: cover;
   }
 
   .img2, .img3 {
-    width: 400px;
-    height: 350px;
+    width: 100%;
+    height: 30%;
   }
 
   .article-left {
-    width: 95%;
-    padding-top: 2rem;
-    padding-left: 2rem;
+    width: 100%;
+    padding-left: 0;
   }
 
   .article-img {
+    margin-bottom: 1rem;
     position: relative;
     right: 0;
-    display: block;
-    margin-top: 30px;
-    text-align: center;
   }
 
   .article-left h3 {
@@ -252,8 +246,8 @@ body{
 }
 
 .article-right {
-  padding-top: 2rem;
-  padding-left: 2rem;
+  padding-top: 0;
+  padding-left: 0;
 
 }
 
@@ -285,28 +279,28 @@ body{
 }
 @media only screen and (max-width: 992px) {
 
-  .img-responsive .img1 {
-    width: 400px;
-    height: 450px;
+  .img-profile {
+    width: 100%;
+    height: auto;
+    float: none;
+    left: 0;
+    object-fit: cover;
   }
 
   .img2, .img3 {
-    width: 400px;
-    height: 350px;
+    width: 100%;
+    height: 30%;
   }
 
   .article-left {
-    width: 95%;
-    padding-top: 2rem;
-    padding-left: 2rem;
+    width: 100%;
+    padding-left: 0;
   }
 
   .article-img {
+    margin-bottom: 1rem;
     position: relative;
     right: 0;
-    display: block;
-    margin-top: 30px;
-    text-align: center;
   }
 
   .article-left h3 {
@@ -322,8 +316,8 @@ body{
 }
 
 .article-right {
-  padding-top: 2rem;
-  padding-left: 2rem;
+  padding-top: 0;
+  padding-left: 0;
 
 }
 
@@ -352,7 +346,4 @@ body{
   line-height: 75px;
 }
 
-}
-
-@media only screen and (max-width: 992px) {
 }

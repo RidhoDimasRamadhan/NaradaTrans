@@ -3,7 +3,7 @@
 <script src="https://kit.fontawesome.com/08692cf6f2.js" crossorigin="anonymous"></script>
 
 @section('content')
-<a href="https://wa.me/089501300359" class="up-icon"><i class="fa-brands fa-whatsapp" style="color: #00e034;"></i></a>
+<a href="https://wa.me/+6285281595005" class="up-icon"><i class="fa-brands fa-whatsapp" style="color: #00e034;"></i></a>
 
 
 <div class="container mb-5" style="margin-top:10rem;" id="kalimat">
@@ -100,8 +100,12 @@
           <p class="">Silahkan hubungi kami dan download e-brochure untuk informasi lebih lanjut.</p>
         </div>
         <div class="btn-ribbon d-lg-flex gap-lg-4">
-          <button type="button" class="btn-kontak text-white">Kontak</button>
-          <button type="button" class="btn-download text-white">Download Brosur</button>
+          <a href="https://wa.me/+6285281595005">
+            <button type="button" class="btn-kontak text-white">Kontak</button>
+          </a>
+          <a href="#">
+            <button type="button" class="btn-download text-white">Download Brosur</button>
+          </a>
         </div>
       </div>
     </div>
